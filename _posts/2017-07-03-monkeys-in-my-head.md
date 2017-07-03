@@ -5,7 +5,7 @@ author: Luis Cerezo
 ---
 ### Damn monkeys
 
-I woke up naturually this morning at 0556. I say "naturally" because I woke up not because of digital alerts, or [furry](https://500px.com/photo/8239680/pogo-by-luis-cerezo) alarm clocks. I woke up feeling rested and in good spirits. So I decided to drink a big glass of water, let the dogs out, and meditate for ten minutes on the back porch. If you have read any good books on modern meditation, such as (Search Inside Yourself)[https://siyli.org/resources/category/siy-book] you will be well aware of the strategies to overcome the monkey mind. Acknowledge the thought as a thought, and let it pass. 
+I woke up naturually this morning at 0556. I say "naturally" because I woke up not because of digital alerts, or [furry](https://500px.com/photo/8239680/pogo-by-luis-cerezo) alarm clocks. I woke up feeling rested and in good spirits. So I decided to drink a big glass of water, let the dogs out, and meditate for ten minutes on the back porch. If you have read any good books on modern meditation, such as [Search Inside Yourself](https://siyli.org/resources/category/siy-book) you will be well aware of the strategies to overcome the monkey mind. Acknowledge the thought as a thought, and let it pass. 
 Here are *some* of the things my monkey threw on the mental wall today.
 
 > I can smell my neighbor smoking her morning smoke. how long has she smoked? how much did her basement gut and finsh cost? It took like 10 months..
