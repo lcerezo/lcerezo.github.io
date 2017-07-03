@@ -20,4 +20,4 @@ What you will see here?
 
 If you reading this, I hope you enjoy it. 
 
-A special thanks to Daniel, who inspired me to start this. You can read his dedication to self betterment, [dedication6twelve](https://dedication6twelve.github.io) or just follow him on twitter. (@danielsweb)[https://twitter.com/danielsweb]
+A special thanks to Daniel, who inspired me to start this. You can read his dedication to self betterment, [dedication6twelve](https://dedication6twelve.github.io) or just follow him on twitter. [@danielsweb](https://twitter.com/danielsweb)
