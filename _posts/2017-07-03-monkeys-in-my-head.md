@@ -18,7 +18,9 @@ Here are *some* of the things my monkey threw on the mental wall today.
 
 > Yea, that was it. That book said to acknowledge the thought as a thought and focus on your breath. is this a thought? is this a thought about a thought, or is this merely a meta thought? is this meta? meta-meta thought?
 
-... that's definitely a thought.  ahhh fuckit.
+... that's definitely a thought.  
+
+> ahhh fuckit.
 
 4:37s close enough.. this monkey wants coffee. 
 
