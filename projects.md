@@ -4,9 +4,11 @@ title: Projects
 permalink: /projects/
 ---
 
-### [Project 1](https://github.com/tux4kids/tuxmania) 
+### Project 1
 Photography
+
 [500px](https://500px.com/lcerezo)
+
 ***
 
 
