@@ -10,9 +10,9 @@ I have in the past failed miserably at blogging. I have many sites that I haven'
 -----
 What you will see here?
 * I'll write about the struggles of a 42 year old self to get to a healthy lifestyle. This includes:
- * Diet
- * Feable attempts at << exercise >>
- * spiritual growth, and the challenges of meditation with mild adhd as an adult. 
+  * Diet
+  * Feable attempts at << exercise >>
+  * spiritual growth, and the challenges of meditation with mild adhd as an adult. 
 * I'll write things and short blurbs that I find funny.
 * I'll write about things related to my work.
 * I'll write about things that interest me.
