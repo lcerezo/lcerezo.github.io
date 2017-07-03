@@ -5,7 +5,7 @@ author: Luis Cerezo
 ---
 ## Failure is a good thing.
 
-I have in the past failed miserably at blogging. I have many sites that I haven't properly cared for, and many iterations of luiscerezo.org that have not lived up to the vision I had for them. The reasons for this are many. None are good reasons. This week, I decided to make self a promise.  I've decided to do some things better. I want to write more. I want to be healthier. I want to maximize my happiness. This little project is a way to keep that promise to myself. This is a way to keep myself accountable, and I hope to grow a little as a result.
+I have in the past failed miserably at blogging. I have many sites that I haven't properly cared for, and many iterations of luiscerezo.org that have not lived up to the vision I had for them. The reasons for this are many - none of them are good reasons. This week I decided to make myself a promise.  I've decided to do things better. I want to write more. I want to be healthier. I want to maximize my happiness. I promise to gift these things to myself.  This little project is a way to keep that promise. This is a way to keep myself accountable, and I hope to grow a little as a result.
 
 -----
 What you will see here?
