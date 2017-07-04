@@ -9,7 +9,7 @@ author: Luis Cerezo
 
 Metrics are becoming more interesting to me everyday. Our next big project at work will involve refactoring a lot of the way we do monitoring, and metrics are a big focus for me. (see the [The Art of Monitoring](https://www.artofmonitoring.com/) for a practical explanation on this approach or watch the amazing talks from [Monitorama](https://www.youtube.com/watch?v=l-w2skD_56E) on Youtube)
  
-I ran across an interesting tweet the other day that reference “The ratio” 
+I ran across an interesting tweet the other day that referenced “The ratio” 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Even 45 isn&#39;t immune to The Ratio. <a href="https://t.co/6VEMLdSSkj">pic.twitter.com/6VEMLdSSkj</a></p>&mdash; claps on the e and π (@sapphixy) <a href="https://twitter.com/sapphixy/status/881854235796701185">July 3, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
