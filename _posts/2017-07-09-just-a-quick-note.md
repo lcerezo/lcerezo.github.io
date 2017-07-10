@@ -10,7 +10,7 @@ Some quick updates today. Don't let the #fakenews tell you otherwise. A hot dog 
 They are sandwiches. After long debate, it has been determined that a hot dog is indeed a sandwich. Choripan is a sandwich, it is a sausage on a bread that is still attached along one side, and comes with a variety of user configured condements. So Choripan = sandwich, hence all hot dogs = sandwiches.  Items still up for debate?
 
 * Oreos 
-* Ice cream "sandwhiches"
+* Ice cream "sandwiches"
 
 ----
 
