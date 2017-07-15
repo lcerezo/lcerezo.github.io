@@ -53,7 +53,11 @@ Why not a Leica you ask?
 
 So in the photo hobby and pro world people have been going bonkers over what FujiFilm has been doing. They are making these 'rangefinder' style cameras very much in the spirit of the old Leicas  that are light, unintrusive and produce incredible quality photos. All this for a tiny fraction of what the incredibly desirable Leica costs. It has a fixed lens. That means no camera zoom. If you want to fill the frame you use the patented Nike zoom method and walk up to the subject. I LOVE THIS! 
 
-I will be shooting more now, and hopefully create some great stories. I'll share them with you and the instagram (link at bottom of page)
+Here is a side by side of the two cameras.
+
+![sidebyside]({{ site.url }}/images/compare.jpg)
+
+I will be shooting more now as this camera is light and small enough to carry around often, and hopefully I will create some great stories to share with you and the instagram (link at bottom of page)
 
 here is the first frame as I was unboxing and reading the manual. There's more to come.
 
