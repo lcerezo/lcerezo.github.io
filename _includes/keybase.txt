@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/lcerezo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.luiscerezo.org
+  * I am lcerezo (https://keybase.io/lcerezo) on keybase.
+  * I have a public key with fingerprint 9442 6F66 477A 466A FD3A  4CC3 002A E056 4FD5 B633
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.8"
+        },
+        "key": {
+            "fingerprint": "94426f66477a466afd3a4cc3002ae0564fd5b633",
+            "host": "keybase.io",
+            "key_id": "002AE0564FD5B633",
+            "uid": "8005a477df22c2a7acf75ae88c20eb19",
+            "username": "lcerezo"
+        },
+        "merkle_root": {
+            "ctime": 1436909727,
+            "hash": "e8f9521d460b4394a2682031388c24fe12208fb7480e1366742b0563ecffe992a14f337b058592e343b024fbf89562691023da5cf89c462071bd1e7f8078faf7",
+            "seqno": 260639
+        },
+        "service": {
+            "hostname": "www.luiscerezo.org",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1436909877,
+    "expire_in": 157680000,
+    "prev": "9638587053b3708d310f8aacff099a0059c3f2a8654c68fafd3ffe15629b3653",
+    "seqno": 17,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFVUm1oHEUYvrOtbU9S80OpqEi7SkygPWdnducjRkjTqgUVrCJIAzlmZmeSbS67
+5+4m5+WM1sT6gfWjgq0W1Irmh2ihwYoFrYqtiR9wKFKxqSg17WEoKH5QWn85k0a0
+/3Z2nvd53ud55vmWJblC/s4zsu3MnvUn8l/Ni9x9k4/eXndEHNSczrojy6GKMvsV
+8SHldDqDqiZ4qophvCaKA1Xclq5ZxKxzRlSShnFkUKBIitQZW2fhdliHUb9KKklo
+uRzmeRBrjD1CuIcx1wHinpQIAMgV8LGnA19ghAzlQJxmF6k6C5ylMLAqAG641eJv
+2+T3XMAPL1xQAHxu2AMNoYSccKmJzxWlEgIlXGaBqUoWLZWlStRobNcdUslgWZWS
+OF7wLLPQIlwPYQYYgcQsxNMBM6OoZj50Aw8D4SHmcYgpBMhFVsPTyoUQUC2IR4Fy
+EcbEg8JsipTUWjEGuetphIj5R30GFfKQAGZOaMp8DDFzAUQB96U5Sw9DQFwRuIpo
+CgjVXBPjIFUPRLHTCTHAiI3ZczISSmX3tqktmqtWq8XycJhe8FiMk34zWkniLJZx
+2dwPZFml01rPahWDf9epKlFapCqJMApMc/+v1jXQi2OhxMSiHqyEiSqFFuETbAoA
+wOqoEds3RtSnBPhIIAJogFygKTelaMAYN10xiTTkFPuexNZegExKrgmCCYR99J9Z
+10hlvN9wpmF/xLPhRDljT+WvXZrLF3KXLrvEPt5cYWXrvy96yZcrckfg458+tOnD
+5mn29B83Nc7mClFz9ne/Y6j+9ifT3xz6bmX37PT21Vt+fuY1+f01D786satR73mn
+/Y7G60/0ufqNY0Fhqn3j8R3FtfHc/PXjYFu0bH95WK2+W1w5tOfqLfU/Tz7Z1kQz
+M5XtXc2ee9//+GD9/OjUe/tebDnb/cEVbz27+Xj+1xndtbOw6q7pw/ylx8L7b957
+6lBX79rJ5ujckY6+ZGLfiS/qG6du+Pqyv+Zr3Ttq4s0bdSM+fADfMrmrZ2n12Au9
+v2y96lT79MmWR86t6E0mXjnQ/ePmlweT8edGPmtt/eHy03+3dczWzu/+vDR43W5/
+vLC8fe4j2beqsWHnzE/r7zl67uhv3/4D
+=CgS3
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lcerezo
+
+==================================================================
+
