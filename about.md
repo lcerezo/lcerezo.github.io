@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+alias: [/resume, /resume/]
 ---
 
 Professionally, I've worked a variety of roles, from desktop support (ages ago) to SRE work. I've worked in these roles since 1998.
