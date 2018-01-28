@@ -1,5 +1,4 @@
 ---
-layout: post
 title: my dedication six twelve.
 author: Luis Cerezo
 ---

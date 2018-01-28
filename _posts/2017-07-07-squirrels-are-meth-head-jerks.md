@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Squirrels are meth-head jerks
 author: Luis Cerezo
 ---

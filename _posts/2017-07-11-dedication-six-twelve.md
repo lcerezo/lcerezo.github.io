@@ -1,5 +1,4 @@
 ---
-layout: post
 title: a dedication six twelve update
 author: Luis
 ---

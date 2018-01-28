@@ -1,5 +1,4 @@
 ---
-layout: post
 title: some of my favorite instagrams this week
 author: Luis
 ---

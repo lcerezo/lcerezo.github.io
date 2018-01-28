@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Pure joy cannot hide.
 author: Luis Cerezo
 ---

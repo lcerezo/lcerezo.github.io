@@ -1,5 +1,4 @@
 ---
-layout: post
 title: I may be an asshole.
 author: Luis Cerezo
 ---

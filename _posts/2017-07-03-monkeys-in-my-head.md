@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Monkeys in my head
 author: Luis Cerezo
 ---

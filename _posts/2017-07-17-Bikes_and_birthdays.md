@@ -1,5 +1,4 @@
 ---
-layout: post
 title: bikes and birthday
 author: Luis
 ---

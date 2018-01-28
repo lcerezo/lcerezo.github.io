@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Kashi Squirrels and a hot dog is a sandwich.
 author: Luis Cerezo
 ---

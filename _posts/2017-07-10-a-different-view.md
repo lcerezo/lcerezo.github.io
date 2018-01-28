@@ -1,5 +1,4 @@
 ---
-layout: post
 title: a different view.
 Author: Luis Cerezo
 ---

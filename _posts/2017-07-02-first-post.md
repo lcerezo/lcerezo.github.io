@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Another first post, Here we go again.
 author: Luis Cerezo
 ---
@@ -12,12 +11,12 @@ What you will see here?
 * I'll write about the struggles of a 42 year old self to get to a healthy lifestyle. This includes:
   * Diet
   * Feable attempts at << exercise >>
-  * spiritual growth, and the challenges of meditation with mild adhd as an adult. 
+  * spiritual growth, and the challenges of meditation with mild adhd as an adult.
 * I'll write things and short blurbs that I find funny.
 * I'll write about things related to my work.
 * I'll write about things that interest me.
 * I'll write about the long battle with Wilfred and Wackadoodle, the terror squirrels that live in my tree.
 
-If you reading this, I hope you enjoy it. 
+If you reading this, I hope you enjoy it.
 
 A special thanks to Daniel, who inspired me to start this. You can read his dedication to self betterment, [dedication6twelve](https://dedication6twelve.github.io) or just follow him on twitter. [@danielsweb](https://twitter.com/danielsweb)
