@@ -2,6 +2,7 @@
 title: About
 permalink: /about/
 alias: [/resume, /resume/]
+redirect_from: "/resume/"
 author: Luis
 ---
 
