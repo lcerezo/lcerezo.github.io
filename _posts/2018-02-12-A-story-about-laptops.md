@@ -1,4 +1,9 @@
-
+---
+Author: Luis
+Title: A story about laptops
+header:
+  overlay_image: /assets/images/goat_mountain.jpg
+---
 # A story about laptops and a very sad apple.
 
 I've been running an older laptop for some time. My personal laptop is a MacBook air from 2012. My work laptop is a MacBook Pro from 2014. I've been dreading updating the mac for some time now, because of [all](https://theoutline.com/post/2402/the-new-macbook-keyboard-is-ruining-my-life?zd=1&zi=ycywnvrm) the [complaints](http://bgr.com/2017/10/19/macbook-pro-2017-keyboard-not-working/) about the [new butterfly](https://www.macrumors.com/2017/02/21/2016-macbook-pro-keyboard-issues/) [keyboard.](https://discussions.apple.com/thread/8106230) If you don't know what I am going on about, [jfgi](http://lmgtfy.com/?q=macbook+pro+keyboard+problems).
