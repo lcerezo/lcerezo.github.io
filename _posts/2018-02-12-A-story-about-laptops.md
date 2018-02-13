@@ -17,18 +17,18 @@ This latest iteration of the MacBook Pro is still an amazing machine. It is insa
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">BadUSB Cable #2. HID attack through an Apple MacBook USB-C charger. Great for shared workspaces!<br><br>Build info coming this month. Still working out some things. These cables work on just about any device with a USB port (Mac/Win/Linux, phones too) <a href="https://t.co/b6254FvpLY">pic.twitter.com/b6254FvpLY</a></p>&mdash; MG (@_MG_) <a href="https://twitter.com/_MG_/status/949684949614907395?ref_src=twsrc%5Etfw">January 6, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
- I like this change. This change feels like apple.
+ I like this change. This change feels like Apple.
 
  Then there's the other controversial feature. That keyboard. That thin butterfly keyboard. That horrible abomination of a keyboard.
 
-Let's rewind a bit. Keyboards to many, especially in a role like mine, are shall we say, are a little divisive. No matter what keyboard you like, and there are many, one feature we all agree should be good is that when a key is pressed, it should register that keypress. This keyboard does not do that.
+>Keyboards to many, especially in a role like mine, are shall we say, are a little divisive. No matter what keyboard you like, and there are many, one feature we all agree should be good is that when a key is pressed, it should register that keypress. This keyboard does not do that.
 ![keyboards]({{ site.url}}/assets/images/wierd_keyboards.png)
 
 My work recently sent me one of these new mbp to replace the aging 2014 model. I locked my selfout of the laptop within 10 minutes of opening it, due to
 * my password resembling modem noise
 * that shift key not registering every keypress.
 
-> After that incident, I clicked buy on a the first non Apple laptop I purchased in 14 years.
+> After that incident, I was convinced the new keyboard was not for me. I clicked buy on a the first non Apple laptop I purchased in 14 years.
 
 ### The search for a better butter knife
 I did a little research and narrowed down my choices to three laptops. My requirements were simple.
@@ -37,9 +37,9 @@ I did a little research and narrowed down my choices to three laptops. My requir
 * hidpi screen
 * can run Linux (prefer to be sold with Linux)
 
-Now the fedora people mostly run Lenovos. I have had luck in the past with these, but the X1 was the only laptop that came close, and it didn't have the gen8 cpu or a hi enough dpi. so I had to
+Now the fedora people mostly run Lenovos. I have had luck in the past with these, but the X1 was the only laptop that came close, and it didn't have the gen8 cpu or a hi enough dpi. so I had to scratch off the
 ~~Lenovo Thinkpad X1 carbon~~
-With the Lenovo off the list, we had 3 contenders left. Let's review.
+With the Lenovo off the list, we had 3 contenders left. Let's review our choices.
 
 #### The System76 Galago Pro.
 > This is a cool machine. One of the few that are thin, and can have up to 32GB of memory. The online order form suggest these are user serviceable.  Almost fully loaded it was 1900 USD, which is a great deal. It comes from a company here in Denver that not only focuses on selling only Linux based hardware, they are developing their own OS. (pop os). The bad things here are
@@ -64,7 +64,7 @@ but some feel it was mere [lip-service](https://blogs.gnome.org/hughsie/2018/02/
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">About to buy a laptop to run <a href="https://twitter.com/fedora?ref_src=twsrc%5Etfw">@fedora</a>. Need crowd sourced opinions, especially if you&#39;ve owned one.</p>&mdash; Luis Cerezo (@luiscerezo) <a href="https://twitter.com/luiscerezo/status/960174615262765057?ref_src=twsrc%5Etfw">February 4, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-So off to the Dell website. After some sadness from the massive gut-punch that is the lack of availability for the white/rose gold on the new XPS Dev Edition. (must be the drivers for the white plastic) I chatted with the helpful folks at Dell and they apologized for this terrible slight with a nice discount, and assured me that the white plastic does not have windows only driver requirements, which is a relief.
+With Dell the clear winner, despite few votes, I set off to the Dell website. After some sadness from the massive gut-punch that is the lack of availability for the white/rose gold on the new XPS Dev Edition, (must be the drivers for the white plastic) I chatted with the helpful folks at Dell. They apologized for this terrible slight with a nice discount, and assured me that the white plastic does not have windows only driver requirements, which is a relief.
 ![dellchat]({{ site.url }}/assets/images/dell_chat.png)
 
 ## next up
