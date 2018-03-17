@@ -103,4 +103,4 @@ I'm keeping this laptop. I've been very happy with it. so much so, I put a stick
 
 ## PS
 
-Go to [selinuxgame.org](http://selinugame.org). A few people spent time making learning selinux fun. Give them a shout out ([bmbouter](https://twitter.com/bmbouter) & ([dkliban](https://twitter.com/dkliban)) and get your name on the [Leaderboard](http://selinuxgame.org/leaderboard/). 
+Go to [selinuxgame.org](http://selinuxgame.org). A few people spent time making learning selinux fun. Give them a shout out ([bmbouter](https://twitter.com/bmbouter) & ([dkliban](https://twitter.com/dkliban)) and get your name on the [Leaderboard](http://selinuxgame.org/leaderboard/). 
