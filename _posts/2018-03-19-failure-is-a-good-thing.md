@@ -36,7 +36,7 @@ Crashes, outages, odd errors give us experience. Every time I crash, I learn and
 
 * In my 30's I was riding more technical trails, lots of trees, narrow single track. after hitting too many trees, I (re)learned the lesson "look to where you want to go, not where you don't."
 
-* Also in my 30's a friend convinced me to try out eggbeaters pedals instead of what I was used to, the "standard" spd pedals. This resulted in yet another full on super man, on a hill, where I landed and knocked the wind out me harder than I have experienced since elementary school. Here I learned two things. Be fearless when trying new things, but also be fearless when rejecting things that don't work for you.
+* Also in my 30's a friend convinced me to try out eggbeaters pedals instead of what I was used to, the "standard" spd pedals. These were dramaticaly different from what I was used to, but fans of them say they are way better. I bought a pair and tried them out for a while.  This resulted in yet another full on super man, on a hill, where I landed and knocked the wind out me harder than I have experienced since elementary school. Here I learned two things. Be fearless when trying new things, but also be fearless when rejecting things that don't work for you. Today I still use SPD pedals. (and still use vim)
 
 # Lessons in life often hurt.
 
