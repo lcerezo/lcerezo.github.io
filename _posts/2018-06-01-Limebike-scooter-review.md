@@ -16,15 +16,18 @@ In most of the city run programs there are bike racks with a kiosk attached. You
  The SV startups programs replace the kiosk with a mobile app, (because of course.) and the bike station with wherever-the-fuck-you-feel-like-it.   On the surface it seems like a great idea. You, as a rider, you look on the map and find a bike/scooter near you. Maybe you are lucky enough that someone dropped one off in front of your apartment. Maybe you timed it just right as someone drops one off in front of the super market that  you are leaving. This idea of parking wherever you finish your ride depends on people being considerate, and parking the bikes out of the way as not to impede non-users. News flash: people are not at all considerate.
 
 
-This minor point, where to leave and pick up a shared bike/scooter has people very angry.
+This minor point, where to leave and pick up a shared bike/scooter has people very angry and confused about how to use them.
 
-https://www.thedenverchannel.com/news/local-news/popularity-of-lime-scooters-leading-to-some-close-calls-on-streets-of-denver
+[Popularity of Lime scooters leading to some close calls on streets of Denver](https://www.thedenverchannel.com/news/local-news/popularity-of-lime-scooters-leading-to-some-close-calls-on-streets-of-denver)
 
 People will park them anywhere...
 
+
 <blockquote class="imgur-embed-pub" lang="en" data-id="EKcpBPf"><a href="//imgur.com/EKcpBPf">Found designated parking for the lime scooter @wash park</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
+
 There are tons of posts on reddit about these services.
+
 
 <blockquote class="reddit-card" data-card-created="1527964713"><a href="https://www.reddit.com/r/Denver/comments/8nxfmh/the_infestation_is_spreading_first_limes_now_birds/">The infestation is spreading - first limes, now birds</a> from <a href="http://www.reddit.com/r/Denver">r/Denver</a></blockquote>
 <script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script>
@@ -48,9 +51,10 @@ The experience:
 
 You ride the scooter like any push scooter. The scooter is equipped with a hand brake on the left, and an thumb lever on the right for the accelerator. You must kick push the scooter to get it rolling before the electric motor will engage. I think this is a safety feature to not accidently hit the accelerator from a standing position and have your scooter ZOOM out into traffic. In the center of the handlebars is a LCD readout that shows your speed, and battery level. The scooter itself is comfortable enough, although the handlebars are the narrow hipster-fixie width. This, coupled with the smallish hard 8” wheels gave the scooter an erratic twitchy feel. This took a few minutes to get used to. The scooter is powerful enough, getting up to 17mph even with my heavy frame, although it struggled a bit to get up a hill, slowing down to 8mph.
 
-I rode around the hood for about 30 minutes, getting curious looks, a few smiles and a few grimaces along the way. One nice man was kind enough to tell me from his van that “You’ll get a ticket for riding those on the street, I’m just telling you…” This (false?) belief is a source of confusion for many. Being that I’m used to being told (read: screamed from a YUKON XL AWD in pearl white with those stupid family stick figure stickers on the back by some angry person named Sheila sucking down her 4th venti sugarfree iced vanilla latte of the day… I GET YOU ARE ANGRY SHEILA, BUT IT’S NOT AT ME OR MY BIKE! FOCUS ON WHAT IS REALLY BOTHERING YOU AND DON’T LASH OUT AT STRANGERS ON A BICYCLE) that bicycles *BELONG ON THE SIDEWALK ASSHOLE!* I didn’t pay this advice any mind, and nothing happened.
+I rode around the hood for about 30 minutes, getting curious looks, a few smiles and a few grimaces along the way. One nice man was kind enough to tell me from his van that “You’ll get a ticket for riding those on the street, I’m just telling you…” This (false?) belief is a source of confusion for many. Being that I’m used to being told (read: screamed from a YUKON XL AWD in pearl white with those stupid family stick figure stickers on the back by some angry person named Sheila sucking down her 4th venti sugarfree iced vanilla latte of the day… **_I GET YOU ARE ANGRY SHEILA, BUT IT’S NOT AT ME OR MY BIKE! FOCUS ON WHAT IS REALLY BOTHERING YOU AND DON’T LASH OUT AT STRANGERS ON A BICYCLE_**) that bicycles **BELONG ON THE SIDEWALK ASSHOLE!** I didn’t pay this advice any mind, and nothing happened.
 
 The total charge for my 27 minutes of wheeee! Was 4.20 after a discount of a buck. If the companies can sort out how to manage people putting the scooters where ever they want, and work with the city on the regulations, this could be a great last mile solution. This could encourage and drive up public transport usage. Or it could end in a dumpster fire.
+`¯\_(ツ)_/¯`
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">VIDEO: Orange smoke plumes from scooters at homeless/tech bus protest in <a href="https://twitter.com/hashtag/SanFrancisco?src=hash&amp;ref_src=twsrc%5Etfw">#SanFrancisco</a> <a href="https://twitter.com/hashtag/scootergate?src=hash&amp;ref_src=twsrc%5Etfw">#scootergate</a> <a href="https://t.co/PW2KkHk5U3">pic.twitter.com/PW2KkHk5U3</a></p>&mdash; Joe Fitz Rodriguez (@FitzTheReporter) <a href="https://twitter.com/FitzTheReporter/status/1002221576366911488?ref_src=twsrc%5Etfw">May 31, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
