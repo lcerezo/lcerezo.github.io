@@ -102,3 +102,7 @@ Garcia de Quevedo</div>
 </div>
 </body>
 </html>
+
+# update
+
+as it turns out, it's not that easy. It seems the overlay does not adjust as expected on different browser window sizes. I'll play with it a bit more and update here. If you know why, let me know on the Twitter.
