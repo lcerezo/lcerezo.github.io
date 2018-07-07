@@ -46,9 +46,9 @@ Is this a good way to do this? Do you know a better or more clever way? let me k
 .bela {
   color: white;
   font-size: 15px;
-  position: absolute;
-  top: 73px;
-  left: 300px;
+  position: relative;
+  top: 28%;
+  left: 36%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
@@ -57,9 +57,9 @@ Is this a good way to do this? Do you know a better or more clever way? let me k
 .abu {
   color: white;
   font-size: 15px;
-  position: absolute;
-  top: 213px;
-  left: 420px;
+  position: relative;
+  top: 25%;
+  left: 51%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
@@ -68,9 +68,9 @@ Is this a good way to do this? Do you know a better or more clever way? let me k
 .mamia {
   color: white;
   font-size: 15px;
-  position: absolute;
-  top: 193px;
-  left: 530px;
+  position: relative;
+  top: 28%;
+  left: 60%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
@@ -79,9 +79,9 @@ Is this a good way to do this? Do you know a better or more clever way? let me k
 .manolo {
   color: white;
   font-size: 15px;
-  position: absolute;
-  top: 193px;
-  left: 200px;
+  position: relative;
+  top: 22%;
+  left: 26%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
@@ -93,11 +93,10 @@ Is this a good way to do this? Do you know a better or more clever way? let me k
 <div class="container">
    <img src="/assets/images/boda-de-abuelos-90.jpg" alt="boda" style="width:100%" class="image">
    <div class="overlay">
-   <div class="bela"> Ana Josephina <br />González</div>
-   <div class="mamia"> Ana "Mamia"<br/> Turull Moreno</div>
-   <div class="manolo"> Manuel<br/> González Quiñones</div>
-   <div class="abu"> Francisco <br/>
-Garcia de Quevedo</div>
+   <div class="bela"> Ana Josephina<br />González</div>
+   <div class="mamia"> Ana "Mamia"<br/>Turull Moreno</div>
+   <div class="manolo"> Manuel<br/>González Quiñones</div>
+   <div class="abu"> Francisco <br/>Garcia de Quevedo</div>
  </div>
 </div>
 </body>
@@ -106,3 +105,7 @@ Garcia de Quevedo</div>
 # update
 
 as it turns out, it's not that easy. It seems the overlay does not adjust as expected on different browser window sizes. I'll play with it a bit more and update here. If you know why, let me know on the Twitter.
+
+
+# update 2
+I changed the element position to relative, it seems a bit more resiliant now.
