@@ -27,7 +27,7 @@ Now the data charge program, isn't for everyone, but it works well for many, and
 
 Here's a 20$ credit, (I'll also get 20$ if you use them) to start out.
 
-Check it out and redeem your code here: https://g.co/fi/r/HNX017
+Check it out and redeem your code here: [20$ coupon/referral code for project fi](https://g.co/fi/r/HNX017)
 
 
 #### Digital Ocean
@@ -39,7 +39,7 @@ Why I like them:
 * simple vm instance launches that are really reliable and cheap, with a public IP. As low as 5$ mo.
 * Great support documents
 
-Here's a 10$ credit. https://m.do.co/c/9af287b2fea8
+Here's a 10$ credit. [10$ digital ocean credit coupon](https://m.do.co/c/9af287b2fea8)
 
 ## Contact me
 You can contact me using my [GPG key](https://raw.githubusercontent.com/lcerezo/scriptz/master/pgppublickey.txt)
