@@ -275,7 +275,7 @@ resume_avatar:                  "false"
 resume_name:                    "Luis E. Cerezo"
 resume_title:                   "Aspiring Chief Staff Engineer, Current SRE"
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "hire@luiscerezo.org (Luis is the right canidate)"
+resume_contact_email:           "hire@luiscerezo.org?subject=Come work with us (Luis is the right canidate)"
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:       "412 223 7396"
 resume_contact_address:         "Colorado and the world"
