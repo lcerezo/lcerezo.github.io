@@ -214,6 +214,23 @@
       </section>
       <!-- end Links -->
       {% endif %}
+      <!-- begin skills wordsoup for keyword searchers -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Skills Word Soup</h2>
+        </header>
+
+        <div class="resume-item">
+          <ul class="resume-item-list">
+            {% for ingredient in site.data.skillset %}
+          <td>   {{ ingredient }} &bull; </td> 
+            {% endfor %}
+          </ul>
+        </div>
+
+      </section>
+      <!-- end wordsoup -->
 
       {% if site.resume_print_social_links %}
       <!-- begin Print Social Links -->
@@ -230,9 +247,9 @@
       </section>
       <!-- end Print Social Links -->
       {% endif %}
-
+    
       <footer class="page-footer">
-        <p class="footer-line">This was made using copy and paste methodolgy to coding. It only exists in yaml and html. Sorry, there are no word document versions available.</a>.</p>
+        <p class="footer-line">This was made using copy and paste methodolgy to coding. It only exists in yaml and html. Sorry, there are no word document versions available.</p>
       </footer>
 
     </div>
