@@ -60,8 +60,18 @@
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
-          <p class="resume-item-copy">{{ job.summary }}</p>
-        </div><!-- end of resume-item -->
+          <p class="resume-item-copy">{{ job.summary }}
+          <ul class="resume-item-list">
+          {% if job.highlights %}
+          {% for h in job.highlights %}
+          <li> {{ h }}</li>
+          {% endfor %}
+          {% endif %}
+          </ul>
+            </p>
+        </div>
+        
+        <!-- end of resume-item -->
         {% endfor %}
 
       </section>
@@ -249,7 +259,7 @@
       {% endif %}
     
       <footer class="page-footer">
-        <p class="footer-line">This was made using copy and paste methodolgy to coding. It only exists in yaml and html. Sorry, there are no word document versions available.</p>
+        <p class="footer-line">This was made using a bit of copy and paste, a bit of hackery. It is powered with the magic of jekyll, yaml sprinkled with some jinja2. It only exists in yaml and html. Sorry, there are no word document versions available. Ask me how I build this!</p>
       </footer>
 
     </div>

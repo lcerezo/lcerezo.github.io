@@ -1,24 +1,65 @@
 - company: PLXIS (An IPC Company)
   position: Infrastructure Engineer
   duration: January 2015 &mdash; Present
-  summary:  Part of a small yet, amazing team that managed, developed, constantly improved the ICD and Gift Card platform for one of the world's most recognizable brands. We processed over 6 Billion USD annually with a reliability of over 5 9's.  <ul class="resume-item-list"><li>Implemented a paging and alerting system that reducing false or no action needed pages by over 99%</li><li>Co-led redesign of cage architecture that allowed for improved reliability</li><li>Redesigned Splunk architecture</li><li>Co-led design of AWS infrastructure, including VPC, network, sg and network designs</li><li>IC in devops team, every day we make it a little better</li><li>Part of an amazing team that managed and operating a Credit Card and Gift Card platform with an uptime of 99.999986061%</li></ul>
+  summary:  Part of a small yet, amazing team that managed, developed, constantly improved the ICD and Gift Card platform for one of the world's most recognizable brands. We processed over 6 Billion USD annually with a reliability of over 5 9's.
+  highlights:
+    - Implemented a paging and alerting system that reducing false or no action needed pages by over 99%
+    - Co-led redesign of cage architecture that allowed for improved reliability and deployability. Covered most deployment and configuration of cage infra using Ansible.
+    - Redesigned Splunk architecture and controlled Splunk Cluster deployments and configuration in Ansible
+    - Co-led design of AWS infrastructure, including VPC, network, sg and network designs
+    - IC in devops team, every day we make it a little better
+    - Terraformed full AWS infrastructure, almost no manual steps are needed.
+    - Part of an amazing team that managed and operating a Credit Card and Gift Card platform with an uptime of 99.999986061%
 
 - company: Viasat (Wildblue Communications)
   position: Senior Redhat Linux Engineer
   duration: March 2012 &mdash; January 2015
-  summary: Individual Contributor on a medium sized team responsible for the billing, customer onboarding and provisioning of satellite internet for residential and commercial aircraft services.  <ul class="resume-item-list"><li> Support the back office systems RHEL5,6 and Solaris  in a 24/7 zero downtime environment</li> <li>Support and configured boot off SAN hosts and data (HP XP24000/Hitachi USP-V)</li> <li>Participate in team lead design decisions</li> <li>Participate in 24/7 on-call rotation</li> <li>Lead small team Oracle RAC redesign and DB redesign.</li> <li>Participate in small team for Datacenter DR config and testing</li> <li>Respond to PCI and SOX deficiencies and Security & patch audits</li> <li>Various scripts written as needed, in perl and bash and now python</li> <li>Assist middleware teams with configuration & system design</li> <li>Rebuild and correct deficiencies in puppet deployment</li></ul>
+  summary: Individual Contributor on a medium sized team responsible for the billing, customer onboarding and provisioning of satellite internet for residential and commercial aircraft services. 
+  highlights:
+   - Support the back office systems RHEL5,6 and Solaris  in a 24/7 zero downtime environment
+   - Support and configured boot off SAN hosts and data (HP XP24000/Hitachi USP-V)
+   - Participate in team lead design decisions
+   - Participate in 24/7 on-call rotation
+   - Lead small team Oracle RAC redesign and DB redesign.
+   - Participate in small team for Datacenter DR config and testing
+   - Respond to PCI and SOX deficiencies and Security & patch audits
+   - Various scripts written as needed, in perl and bash and now python
+   - Assist middleware teams with configuration & system design
+   - Rebuild and correct deficiencies in puppet deployment
 
 - company: Petroleum Geo-Services
   position: Sr. Linux Engineer
   duration: February 2005 &mdash; March 2012
-  summary: <ul class="resume-item-list"><li>Designed and deployed full automated install and configuration management tool globally for Linux and Unix servers, and Linux <li>Workstations using cfengine & kickstarts on various platforms including RHEL/CentOS,Fedora</li><li>Designed and deployed full single-sign-on solution globally for Linux and Unix servers and Linux & Apple Mac workstations using Likewise Enterprise; Integrated with existing Windows Active Directory across 8 Datacenters across the globe, over 1500 hosts.</li><li>Designed and deployed monitoring with Nagios</li><li>Created and maintained custom software pkgs (RPMs) for internal software and 3rd party configurations</li><li>Supported ~ 500  PhD level users for in-house seismic processing/exploration and 3rd party applications, including infrastructure for development teams for emerging technologies</li><li>Interfaced with HPC group to streamline workflow between the users and research and production clusters</li><li>Provided support and troubleshooting for complex in-house software (can't google that!)</li><li>Acted as the main interface between Global IT management and managers of G&E (R&D), and Data Processing groups</li><li>Implemented hardware standards for all Linux high-end visualisation workstations. These workstations have very large graphics and memory footprints. (48G-96G++ per)</li><li>Implemented change process for Linux environment using CVS for policy management, inspired by the ITIL framework.</li><li>Assisted in 3 major office moves in 3 different countries, Including PM of infrastructure and services moves.</li><li>Heavy international travel</li><li>Various scripts written as needed, in perl and bash</li></ul>
+  summary: Linux Engineer with wide scope of projects and responsibility in an organization that used science and massive compute power to map the earth's crust to help oil companies lower risk of exploratory wells in marine environments.
+  highlights:
+  - Designed and deployed full automated install and configuration management tool globally for Linux and Unix servers, and Linux Workstations using cfengine 2 & kickstarts on various platforms including RHEL/CentOS,Fedora
+  - Designed and deployed full single-sign-on solution globally for Linux and Unix servers and Linux & Apple Mac workstations using Likewise Enterprise; Integrated with existing Windows Active Directory across 8 Datacenters across the globe, over 1500 hosts. This was later extended to the HPC clusters, covering tens of thousands of hosts.
+  - Designed and deployed monitoring with Nagios
+  - Created and maintained custom software pkgs (RPMs) for internal software and 3rd party configurations
+  - Supported ~ 500  PhD level users for in-house seismic processing/exploration and 3rd party applications, including infrastructure for development teams for emerging technologies
+  - Interfaced with HPC group to streamline workflow between the users and research and production clusters
+  - Provided support and troubleshooting for complex in-house software (can't google that!)
+  - Acted as the main interface between Global IT management and managers of G&E (R&D), and Data Processing groups, and HPC management
+  - Implemented hardware standards for all Linux high-end visualisation workstations. These workstations have very large graphics and memory footprints, and powered immersive visualization rooms for internal and client collaboration
+  - Implemented change process for Linux environment using CVS for policy management, inspired by the ITIL framework.
+  - Assisted in 3 major office moves in 3 different countries, Including PM of infrastructure and services moves.
+  - Heavy international travel, worked in various roles, including as hiring manager for Linux engineers in Kuala Lumpur
+  - Various scripts written as needed, in perl and bash
 
 - company: Schlumberger OilField Services
   position: Server Admin
   duration: Jan 1999 &mdash; February 2005
-  summary: Individual contributor on a small team of 7 people with various duties from desktop support to managing servers running various engineering applications.  <ul class="resume-item-list"><li>Administration of multi-platform servers serving 600+ end users.</li><li>Various projects, server consolidation, consolidated over 30 Windows servers to 15 Linux and Unix servers for infrastructure services, NFS, CIFS, DNS & DHCP</li><li>Consolidated several (IIS, netscape suite spot, Iplanet enterprise) web servers to single host (apache vhost +ssl) on RedHat Ent. Linux 3</li><li>Sun Solaris upgrades from 2.6 to 8</li><li>Deployed Oracle environment on Sun Solaris for consolidation of various databases</li><li>Day to day administration and maintenance of Unix(solaris 2.6-9), Linux, Windows NT/2000 servers,Oracle 8i databases, Legato server, and NetApp</li><li>Various scripts written as needed, in perl and bash</li></ul>
+  summary: Individual contributor on a small team of 7 people with various duties from desktop support to managing servers running various engineering applications.
+  highlights:
+  - Administration of multi-platform servers serving 600+ end users.
+  - Various projects, server consolidation, consolidated over 30 Windows servers to 15 Linux and Unix servers for infrastructure services, NFS, CIFS, DNS & DHCP
+  - Consolidated several (IIS, netscape suite spot, Iplanet enterprise) web servers to single host (apache vhost +ssl) on RedHat Ent. Linux 3
+  - Sun Solaris upgrades from 2.6 to 8
+  - Deployed Oracle environment on Sun Solaris for consolidation of various databases
+  - Day to day administration and maintenance of Unix(solaris 2.6-9), Linux, Windows NT/2000 servers,Oracle 8i databases, Legato server, and NetApp
+  - Various scripts written as needed, in perl and bash
 
 - company: Other Experiences
-  position: Door to door enyclopedia sales, Direct sales with large contractors at a tile & granite distributor.
+  position: Door to door encyclopedia sales, Direct sales with large contractors at a tile & granite distributor.
   duration: 1998 and before
   summary: Gotta hustle to survive in the dog eat dog world.. WOOF!
