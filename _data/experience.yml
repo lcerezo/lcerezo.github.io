@@ -1,7 +1,7 @@
 - company: PLXIS (An IPC Company)
   position: Infrastructure Engineer
   duration: January 2015 &mdash; Present
-  summary:  Part of a small yet, amazing team that managed, developed, constantly improved the ICD and Gift Card platform for one of the world's most recognizable brands. We processed over 6 Billion USD annually with a reliability of over 5 9's.
+  summary:  Part of a small and amazing team that managed, developed, constantly improved the ICD and Gift Card platform for one of the world's most recognizable brands. We processed over 6 Billion USD annually with a reliability of over 5 9's.
   highlights:
     - Implemented a paging and alerting system that reducing false or no action needed pages by over 99%
     - Co-led redesign of cage architecture that allowed for improved reliability and deployability. Covered most deployment and configuration of cage infra using Ansible.
@@ -9,6 +9,7 @@
     - Co-led design of AWS infrastructure, including VPC, network, sg and network designs, shared services such as squid and splunk, fully implemented in Terraform.
     - IC in devops team, every day we make it a little better
     - Part of an amazing team that managed and operating a Credit Card and Gift Card platform with an uptime of 99.999986061%
+    - Stayed out of the news, Unknown to Krebs on Security.
 
 - company: Viasat (Wildblue Communications)
   position: Senior Redhat Linux Engineer
@@ -19,7 +20,7 @@
    - Support and configured boot off SAN hosts and data (HP XP24000/Hitachi USP-V)
    - Participate in team lead design decisions
    - Participate in 24/7 on-call rotation
-   - Lead small team Oracle RAC redesign and DB redesign.
+   - Led small team Oracle RAC redesign and DB redesign.
    - Participate in small team for Datacenter DR config and testing
    - Respond to PCI and SOX deficiencies and Security & patch audits
    - Various scripts written as needed, in perl and bash and now python
@@ -59,6 +60,6 @@
   - Various scripts written as needed, in perl and bash
 
 - company: Other Experiences
-  position: Door to door encyclopedia sales, Direct sales with large contractors at a tile & granite distributor. Occasional Professional Photographer of weddings and of interesting people. Volunteer.
+  position: Door to door encyclopedia sales, Direct sales with large contractors at a tile & granite distributor. Occasional Professional Photographer of weddings and of interesting people. Volunteer, and proud co-host of a failed podcast.
   duration: Birth until now.
   summary: Gotta hustle to survive in the dog eat dog world.. WOOF!
