@@ -6,9 +6,8 @@
     - Implemented a paging and alerting system that reducing false or no action needed pages by over 99%
     - Co-led redesign of cage architecture that allowed for improved reliability and deployability. Covered most deployment and configuration of cage infra using Ansible.
     - Redesigned Splunk architecture and controlled Splunk Cluster deployments and configuration in Ansible
-    - Co-led design of AWS infrastructure, including VPC, network, sg and network designs
+    - Co-led design of AWS infrastructure, including VPC, network, sg and network designs, shared services such as squid and splunk, fully implemented in Terraform.
     - IC in devops team, every day we make it a little better
-    - Terraformed full AWS infrastructure, almost no manual steps are needed.
     - Part of an amazing team that managed and operating a Credit Card and Gift Card platform with an uptime of 99.999986061%
 
 - company: Viasat (Wildblue Communications)
@@ -60,6 +59,6 @@
   - Various scripts written as needed, in perl and bash
 
 - company: Other Experiences
-  position: Door to door encyclopedia sales, Direct sales with large contractors at a tile & granite distributor.
-  duration: 1998 and before
+  position: Door to door encyclopedia sales, Direct sales with large contractors at a tile & granite distributor. Occasional Professional Photographer of weddings and of interesting people. Volunteer.
+  duration: Birth until now.
   summary: Gotta hustle to survive in the dog eat dog world.. WOOF!
