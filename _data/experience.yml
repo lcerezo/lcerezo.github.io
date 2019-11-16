@@ -1,4 +1,4 @@
-- company: PLXIS (An IPC Company)
+- company: PLXIS (An IPC Company) &bull; Remote
   position: Infrastructure Engineer
   duration: January 2015 &mdash; Present
   summary:  Part of a small and amazing team that managed, developed, constantly improved the ICD and Gift Card platform for one of the world's most recognizable brands. We processed over 6 Billion USD annually with a reliability of over 5 9's.
@@ -11,7 +11,7 @@
     - Part of an amazing team that managed and operating a Credit Card and Gift Card platform with an uptime of 99.999986061%
     - Stayed out of the news, Remain unknown to Krebs on Security.
 
-- company: Viasat (Wildblue Communications)
+- company: Viasat (Wildblue Communications) &bull; Denver, Colorado
   position: Senior Redhat Linux Engineer
   duration: March 2012 &mdash; January 2015
   summary: Individual Contributor on a medium sized team responsible for the billing, customer onboarding and provisioning of satellite internet for residential and commercial aircraft services. 
@@ -27,7 +27,7 @@
    - Assist middleware teams with configuration & system design
    - Rebuild and correct deficiencies in puppet deployment
 
-- company: Petroleum Geo-Services
+- company: Petroleum Geo-Services &bull; Houston, Texas
   position: Sr. Linux Engineer
   duration: February 2005 &mdash; March 2012
   summary: Linux Engineer with wide scope of projects and responsibility in an organization that used science and massive compute power to map the earth's crust to help oil companies lower risk of exploratory wells in marine environments.
@@ -46,7 +46,7 @@
   - Heavy international travel, worked in various roles, including as hiring manager for Linux engineers in Kuala Lumpur
   - Various scripts written as needed, in perl and bash
 
-- company: Schlumberger OilField Services
+- company: Schlumberger OilField Services &bull; Houston, Texas
   position: Server Admin
   duration: Jan 1999 &mdash; February 2005
   summary: Individual contributor on a small team of 7 people with various duties from desktop support to managing servers running various engineering applications.
@@ -59,7 +59,7 @@
   - Day to day administration and maintenance of Unix(solaris 2.6-9), Linux, Windows NT/2000 servers,Oracle 8i databases, Legato server, and NetApp
   - Various scripts written as needed, in perl and bash
 
-- company: Other Experiences
-  position: Door to door encyclopedia sales, Direct sales with large contractors at a tile & granite distributor. Occasional Professional Photographer of weddings and of interesting people. Volunteer, and proud co-host of a failed podcast.
+- company: Other Experiences &bull; Various locations
+  summary: Door to door encyclopedia sales, Direct sales with large contractors at a tile & granite distributor. Occasional Professional Photographer of weddings and of interesting people. Volunteer, and proud co-host of a failed podcast.
   duration: Birth until now.
-  summary: Gotta hustle to survive in the dog eat dog world.. WOOF!
+  position: Gotta hustle to survive in the dog eat dog world.. WOOF!
