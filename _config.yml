@@ -273,7 +273,7 @@ defaults:
 # Resume settings
 resume_avatar:                  "false"
 resume_name:                    "Luis E. Cerezo"
-resume_title:                   "Aspiring Chief Staff Engineer, Current SRE"
+resume_title:                   "Aspiring Chief Staff Engineer, Current Sr. SRE/Infrastructure Engineer"
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "Luis is the right canidate <hire@luiscerezo.org>?subject=Come work with us, Luis  "
 # the next two items are used for schema itemprops in _layouts/resume.html

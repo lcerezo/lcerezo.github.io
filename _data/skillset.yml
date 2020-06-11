@@ -1,7 +1,7 @@
 - Red Hat/CentOS
 - Terraform
 - AWS VPC
-- Anisble
+- Ansible
 - cfengine
 - puppet
 - Humble Professionalism
@@ -44,6 +44,7 @@
 - Monitoring
 - Nagios
 - Docker
+- data dog
 - containers
 - Extending Ansible
-- dynamic inventories
+- ansible dynamic inventories
