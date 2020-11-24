@@ -1,20 +1,21 @@
-- company: PLXIS (An IPC Company) &bull; Remote
+- company: PLXIS (An <a href=https://www.ipcoop.com>IPC Company</a>) &bull; Remote
   position: Sr. Infrastructure Engineer/Sr. SRE
   duration: January 2015 &mdash; Present
-  summary:  Part of a small and amazing team that managed, developed, constantly improved the ICD and Gift Card platform for one of the world's most recognizable brands. We processed over 6 Billion USD annually with a reliability of over 5 9's.
+  summary:  Part of a small and amazing team that manages, develops, continuously improves the ICD and Gift Card platform for one of the world's most recognizable brands serving over 25K locations. We have an ICD Processing volume of 6 Billion USD annually with a reliability of over 5 9's.
   highlights:
-    - Implemented a paging and alerting system that reduced false or no action needed pages by over 99%
-    - Continous improvement of incident response policies. (PIR > Post Mortem, blameless is the way)
-    - Remote management of on-premise data center cages and PoPs (co-lo) with occasional travel on-site when required
+    - Implemented a paging and alerting system that reduced staff pager fatigue by reducing false/no action needed pages by over 99%.
+    - Led Continous improvement of incident response policies. (PIR > Post Mortem, blameless is the way)
+    - Co-led design of AWS infrastructure, including VPC, network, sg and network designs, Implemented in Terraform.
+    - Moved and translated on premise shared services such as squid and splunk to AWS, with automated deployment through sdlc/env implemented in Terraform, ansible and other tooling.
+    - Due to business requirements, Redesigned Splunk again to run in AWS, using Terrafrom and ansible (above).
     - Co-led redesign of on-premise cage architecture that allowed for improved reliability and deployability. Covered most deployment and configuration of cage infra using Ansible.
-    - Redesigned Splunk architecture and controlled Splunk Cluster deployments and configuration in Ansible
-    - Due to business requirements, Redesigned Splunk again to run in AWS, using Terrafrom and ansible (above). These now self deploy.
-    - Co-led design of AWS infrastructure, including VPC, network, sg and network designs, shared services such as squid and splunk, fully implemented in Terraform.
-    - IC in devops team, every day we make it a little better.
-    - Part of an amazing team that managed and operating a Credit Card and Gift Card platform with an uptime of 99.999986061%
+    - Redesigned and impletmented Splunk architecture and controlled Splunk Cluster deployments and configuration in Ansible
+    - Remote management of data center cages and PoPs with occasional travel on-site when required
     - Stayed out of the news, Remain unknown to Krebs on Security.
+    - Respond to PCI/DSS deficiencies and Security audits.
+    - Pair on continuous improvements to our tools, architecture and systems.
 
-- company: Viasat (Wildblue Communications) &bull; Denver, Colorado
+- company: Viasat/Exede &bull; Denver, Colorado
   position: Senior Red Hat Linux Engineer
   duration: March 2012 &mdash; January 2015
   summary: Individual Contributor on a medium sized team responsible for the billing, customer onboarding and provisioning of satellite internet for residential and commercial aircraft services. 

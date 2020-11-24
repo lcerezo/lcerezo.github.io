@@ -205,6 +205,24 @@
       <!-- end Interests -->
       {% endif %}
 
+      <!-- begin skills word salad for keyword searchers -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Skills Word Salad</h2>
+        </header>
+
+        <div class="resume-item">
+          <ul class="resume-item-list">
+            {% for ingredient in site.data.skillset %}
+          <td>   {{ ingredient }} &bull; </td> 
+            {% endfor %}
+          </ul>
+        </div>
+
+      </section>
+      <!-- end word salad -->
+
       {% if site.resume_section_links %}
       <!-- begin Links -->
       <section class="content-section">
@@ -224,23 +242,6 @@
       </section>
       <!-- end Links -->
       {% endif %}
-      <!-- begin skills word salad for keyword searchers -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Skills Word Salad</h2>
-        </header>
-
-        <div class="resume-item">
-          <ul class="resume-item-list">
-            {% for ingredient in site.data.skillset %}
-          <td>   {{ ingredient }} &bull; </td> 
-            {% endfor %}
-          </ul>
-        </div>
-
-      </section>
-      <!-- end word salad -->
 
       {% if site.resume_print_social_links %}
       <!-- begin Print Social Links -->
