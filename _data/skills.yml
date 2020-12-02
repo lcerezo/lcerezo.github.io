@@ -4,8 +4,8 @@
 - skill: Splunk
   description: 5 years managing, administering and extending Splunk
 
-- skill: AWS and cloud services
-  description: Several years experience building, operating and managing AWS environments and services
+- skill: AWS and other cloud services
+  description: Several years experience building, operating and managing AWS environments and cloud services
 
 - skill: Automation tooling
   description: Over 13 years experience in automation tools such as cfengine, puppet, ansible and terraform.

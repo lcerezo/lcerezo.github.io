@@ -4,12 +4,12 @@
   summary:  Part of a small and amazing team that manages, develops, continuously improves the ICD and Gift Card platform for one of the world's most recognizable brands serving over 25K locations. We have an ICD Processing volume of 6 Billion USD annually with a reliability of over 5 9's.
   highlights:
     - Implemented a paging and alerting system that reduced staff pager fatigue by reducing false/no action needed pages by over 99%.
-    - Led Continous improvement of incident response policies. (PIR > Post Mortem, blameless is the way)
+    - Led Continuos improvement of incident response policies, on-call polices. (PIR > Post Mortem, blameless is the way)
     - Co-led design of AWS infrastructure, including VPC, network, sg and network designs, Implemented in Terraform.
     - Moved and translated on premise shared services such as squid and splunk to AWS, with automated deployment through sdlc/env implemented in Terraform, ansible and other tooling.
     - Due to business requirements, Redesigned Splunk again to run in AWS, using Terrafrom and ansible (above).
     - Co-led redesign of on-premise cage architecture that allowed for improved reliability and deployability. Covered most deployment and configuration of cage infra using Ansible.
-    - Redesigned and impletmented Splunk architecture and controlled Splunk Cluster deployments and configuration in Ansible
+    - Redesigned and implemented Splunk architecture and controlled Splunk Cluster deployments and configuration in Ansible
     - Remote management of data center cages and PoPs with occasional travel on-site when required
     - Stayed out of the news, Remain unknown to Krebs on Security.
     - Respond to PCI/DSS deficiencies and Security audits.
@@ -44,7 +44,7 @@
   - Interfaced with HPC group to streamline workflow between the users and research and production clusters
   - Provided support and troubleshooting for complex in-house software (can't google that!)
   - Acted as the main interface between Global IT management and managers of G&E (R&D), and Data Processing groups, and HPC management
-  - Implemented hardware standards for all Linux high-end visualisation workstations. These workstations have very large graphics and memory footprints, and powered immersive visualization rooms for internal and client collaboration
+  - Implemented hardware standards for all Linux high-end visualization workstations. These workstations have very large graphics and memory footprints, and powered immersive visualization rooms for internal and client collaboration
   - Implemented change process for Linux environment using CVS for policy management, inspired by the ITIL framework.
   - Assisted in 3 major office moves in 3 different countries, Including PM of infrastructure and services moves.
   - Heavy international travel, worked in various roles, including as hiring manager for Linux engineers in Kuala Lumpur
@@ -57,7 +57,7 @@
   highlights:
   - Administration of multi-platform servers serving 600+ end users.
   - Various projects, server consolidation, consolidated over 30 Windows servers to 15 Linux and Unix servers for infrastructure services, NFS, CIFS, DNS & DHCP
-  - Consolidated several (IIS, netscape suite spot, Iplanet enterprise) web servers to single host (apache vhost +ssl) on RedHat Ent. Linux 3
+  - Consolidated several (IIS, netscape suite spot, iPlanet enterprise) web servers to single host (apache vhost +ssl) on RedHat Ent. Linux 3
   - Sun Solaris upgrades from 2.6 to 8
   - Deployed Oracle environment on Sun Solaris for consolidation of various databases
   - Day to day administration and maintenance of Unix(solaris 2.6-9), Linux, Windows NT/2000 servers,Oracle 8i databases, Legato server, and NetApp
