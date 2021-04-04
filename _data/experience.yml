@@ -3,6 +3,7 @@
   duration: January 2015 &mdash; Present
   summary:  Part of a small and amazing team that manages, develops, continuously improves the ICD and Gift Card platform for one of the world's most recognizable brands serving over 25K locations. We have an ICD Processing volume of 6 Billion USD annually with a reliability of over 5 9's.
   highlights:
+    - Reduced AWS spend 21% Using various standard strategies and contract negotiations with 3rd party vendors using private offers.
     - Implemented a paging and alerting system that reduced staff pager fatigue by reducing false/no action needed pages by over 99%.
     - Led Continuos improvement of incident response policies, on-call polices. (PIR > Post Mortem, blameless is the way)
     - Co-led design of AWS infrastructure, including VPC, network, sg and network designs, Implemented in Terraform.
