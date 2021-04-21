@@ -172,13 +172,8 @@
         <header class="section-header">
           <h2>Certifications</h2>
         </header>
-
         {% for certification in site.data.certifications %}
-        <div class="resume-item">
-          {{ certification.badge }}
-        </div>
-        {% endfor %}
-
+          {{ certification.badge }} {% endfor %}
       </section>
       <!-- end certifications -->
       {% endif %}
