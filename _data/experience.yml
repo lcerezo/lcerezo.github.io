@@ -1,6 +1,20 @@
+- company: Amazon Web Services &bull; Remote/US West
+  position: Technical Account Manager, US West
+  duration: April 2021 &mdash; Present
+  summary: The TAM role blends the Solutions Architect and Business account management roles to proactively support large enterprises build and succeed in AWS.
+  highlights:
+    - Act as Enterprise Architect, supporting design and architecture guidance for AWS and hybrid workloads
+    - Act as Customer advocate inside of AWS, driving AWS product road maps to align with customer needs. 
+    - Provide Technical Deep Dives on various AWS services to help drive business outcomes.
+    - Build PoC (Proofs of Concept) in AWS to help solve customer challenges
+    - Facilitate,Build and operate customer staff educational engagements from small workshops, immersion days to game days/hackathons and more.
+    - Cost Optimization - Provide deep insight to architectural designs that lower operational costs and AWS bills.
+    - Operational improvement using Well Architected Reviews with focus on performance, security, reliability and cost optimization.
+    - and so <a href="https://bit.ly/2AivWrM">much</a> <a href="https://www.amazon.jobs/en/search?base_query=Technical+Account+Manager">more.</a>
+
 - company: PLXIS (An <a href=https://www.ipcoop.com>IPC Company</a>) &bull; Remote
   position: Sr. Infrastructure Engineer/Sr. SRE
-  duration: January 2015 &mdash; Present
+  duration: January 2015 &mdash; April 2021
   summary:  Part of a small and amazing team that manages, develops, continuously improves the ICD and Gift Card platform for one of the world's most recognizable brands serving over 25K locations. We have an ICD Processing volume of 6 Billion USD annually with a reliability of over 5 9's.
   highlights:
     - Reduced AWS spend 21% Using various standard strategies and contract negotiations with 3rd party vendors using private offers.
