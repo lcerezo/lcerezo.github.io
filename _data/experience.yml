@@ -19,9 +19,9 @@
   highlights:
     - Reduced AWS spend 21% Using various standard strategies and contract negotiations with 3rd party vendors using private offers.
     - Implemented a paging and alerting system that reduced staff pager fatigue by reducing false/no action needed pages by over 99%.
-    - Led Continuos improvement of incident response policies, on-call polices. (PIR > Post Mortem, blameless is the way)
+    - Led Continuous improvement of incident response policies, on-call policies. (PIR > Post Mortem, blameless is the way)
     - Co-led design of AWS infrastructure, including VPC, network, sg and network designs, Implemented in Terraform.
-    - Moved and translated on premise shared services such as squid and splunk to AWS, with automated deployment through sdlc/env implemented in Terraform, ansible and other tooling.
+    - Moved and translated on premise shared services such as squid and splunk to AWS, with automated deployment through SDLC/env implemented in Terraform, ansible and other tooling.
     - Due to business requirements, Redesigned Splunk again to run in AWS, using Terrafrom and ansible (above).
     - Co-led redesign of on-premise cage architecture that allowed for improved reliability and deployability. Covered most deployment and configuration of cage infra using Ansible.
     - Redesigned and implemented Splunk architecture and controlled Splunk Cluster deployments and configuration in Ansible
