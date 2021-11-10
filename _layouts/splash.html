@@ -18,5 +18,11 @@ layout: default
     <section class="page__content" itemprop="text">
       {{ content }}
     </section>
+    <section class="page__datepublished" itemprop="text">
+    {% if page.date %}
+
+    Published on {{ page.date | date: "%B %d, %Y" }}
+    {% endif %}
+  </section>
   </article>
 </div>

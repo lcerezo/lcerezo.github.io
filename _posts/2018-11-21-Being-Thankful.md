@@ -1,5 +1,6 @@
 ---
 title: being thankful
+date: 2018-11-21
 ---
 
 # A message of thanks.

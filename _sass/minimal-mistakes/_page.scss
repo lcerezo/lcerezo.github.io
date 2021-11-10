@@ -65,6 +65,12 @@
   font-family: $global-font-family;
   font-size: $type-size-4;
 }
+.page__datepublished {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid $border-color;
+  }
 
 .page__content {
   h2 {
