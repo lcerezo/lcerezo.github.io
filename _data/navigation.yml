@@ -6,5 +6,8 @@ main:
     url: /year-archive/
   # - title: "Gallery"
   #   url: /gallery/
-  - title: "Projects"
-    url: /projects/
+  # - title: "Projects"
+  #   url: /projects/
+  - title: gpg key
+    url: /gpgpub.txt
+    description: send me secrets.

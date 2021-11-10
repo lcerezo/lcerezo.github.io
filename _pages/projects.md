@@ -14,8 +14,8 @@ Photography
 ### Shameless plugs for referral credits. We both win with coupons like these.
 
 
-#### Project Fi 
-Project Fi is Google's MVNO, Google buys data and time from major provider's towers and resells them. It is a pay-as-you-go, pay-only-for-what-you-use program.
+#### Google Fi 
+Google Fi (formerly project fi) is Google's MVNO, Google buys data and time from major provider's towers and resells them. It is a pay-as-you-go, pay-only-for-what-you-use program.
 
 Why I like them:
 
@@ -40,6 +40,3 @@ Why I like them:
 * Great support documents
 
 Here's a 10$ credit. [10$ digital ocean credit coupon](https://m.do.co/c/9af287b2fea8)
-
-## Contact me
-You can contact me using my [GPG key](https://raw.githubusercontent.com/lcerezo/scriptz/master/pgppublickey.txt)

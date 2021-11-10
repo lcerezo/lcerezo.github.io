@@ -13,4 +13,4 @@ Personally, I love photography, design, coffee, and the list changes often. I lo
 
 There are links at the bottom for the normal social media things. Follow me there if you really want to know more.
 ## Contact me
-You can contact me using my [GPG key](https://raw.githubusercontent.com/lcerezo/scriptz/master/pgppublickey.txt)
+You can contact me using my [GPG key](/gpgpub.txt)
