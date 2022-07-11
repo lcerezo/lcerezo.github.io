@@ -3,14 +3,18 @@
   duration: April 2021 &mdash; Present
   summary: The TAM role blends the Solutions Architect and Business account management roles to proactively support large enterprises build and succeed in AWS.
   highlights:
+    - Act as a Trusted Advisor to Customer Senior Leadership to proactively guide architecture decisions for maximum efficiency and minimize risks. 
     - Act as Enterprise Architect, supporting design and architecture guidance for AWS and hybrid workloads
+    - Provide strategic and proactive guidance and support to customer C-suite and Sr. Leadership 
     - Act as Customer advocate inside of AWS, driving AWS product road maps to align with customer needs. 
     - Provide Technical Deep Dives on various AWS services to help drive business outcomes.
-    - Build PoC (Proofs of Concept) in AWS to help solve customer challenges
-    - Facilitate,Build and operate customer staff educational engagements from small workshops, immersion days to game days/hackathons and more.
+    - <a href=https://tableflip.luicerez.people.aws.dev> Build Proofs of Concept in AWS</a> to help solve customer challenges
+    - Facilitate, Build and Operate customer staff educational engagements from small workshops, immersion days to game days and more.
     - Cost Optimization - Provide deep insight to architectural designs that lower operational costs and AWS bills.
-    - Operational improvement using Well Architected Reviews with focus on performance, security, reliability and cost optimization.
-    - and so <a href="https://bit.ly/2AivWrM">much</a> <a href="https://www.amazon.jobs/en/search?base_query=Technical+Account+Manager">more.</a>
+    - Operational improvement using Well Architected Reviews with focus on performance, security, reliability, resilience, operational efficiency and cost optimization.
+    - Enable customers to optimize for cost, operational efficiency and security posture using best practices and periodic reviews of architecture
+    - Proactively guide large organizations towards operational excellence to prevent business and brand impacting events.
+    - And so <a href="https://bit.ly/2AivWrM">much</a> <a href="https://www.amazon.jobs/en/search?base_query=Technical+Account+Manager">more.</a>
 
 - company: PLXIS (An <a href=https://www.ipcoop.com>IPC Company</a>) &bull; Remote
   position: Sr. Infrastructure Engineer/Sr. SRE
