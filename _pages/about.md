@@ -21,5 +21,5 @@ You can contact me using my [GPG key](/gpgpub.txt)
 People I share a name with, but who are not me.
 
 Luis Cerezo PHD, [Professor of Linguinstics](https://www.linkedin.com/in/luiscerezophd/)  
-Luis Cerezo, Author and Artist. [li](https://www.linkedin.com/in/lcerezo/)
+Luis Cerezo, [Author and Artist](https://www.linkedin.com/in/lcerezo/)
 
