@@ -10,11 +10,11 @@ I currently work at AWS helping organizations find operational efficiencies in t
 Until [then...](https://www.linkedin.com/in/luiscerezo/) or --> [resume]({% link _pages/resume.md %}).
 
 
-Personally, I love photography, design, coffee, and the list changes often. I love to learn new things, and hope to be a student until the day I die.
-
-There are links at the bottom for the normal social media things. Follow me there if you really want to know more.
+There are links at the bottom for the normal social media things. .
 ## Contact me
-You can contact me using my [GPG key](/gpgpub.txt)
+You can contact me using my [GPG key](/gpgpub.txt) 
+
+Or by plain old email (base64 encoded) `bHVpcyBET1QgY2VyZXpvIEFUIGdtYWlsIERPVCBjb20K`
 
 
 # Not me (Tocayos)
