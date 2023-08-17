@@ -9,8 +9,8 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Luis E. Cerezo"
-title_separator          : "-"
+title                    : "Why did you come here?"
+title_separator          : ""
 name                     : "Luis E. Cerezo"
 description              : ""
 url                      : "https://www.luiscerezo.org" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
