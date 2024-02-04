@@ -1,0 +1,44 @@
+
+<script type="text/javascript">
+    window.onload = function() {
+    // Get the list element
+    var list = document.getElementById("wordsalad");
+  
+    // Create a copy of the list items array
+    var listItems = Array.from(list.children);
+  
+    // Shuffle the list items array
+    listItems.sort(() => Math.random() - 0.5);  // Fisher-Yates shuffle
+  
+    // Rearrange the list items in the DOM
+    list.innerHTML = "";  // Clear the list
+    listItems.forEach(item => list.appendChild(item));  // Append items in shuffled order
+  };
+
+</script>
+
+
+<style type="text/css"> 
+.li2 {
+    list-style-type: none;
+    float:center;
+    display: inline;
+}
+</style>
+
+<section class="content-section">
+
+    <header class="section-header">
+      <h2>Skills Word Salad</h2>
+    </header>
+
+    <div class="resume-item">
+      <ul class="resume-item-list" id="wordsalad">
+        {% for ingredient in site.data.skillset %}
+        <li class="li2">  {{ ingredient }} &bull; </li>
+        {% endfor %}
+      </ul>
+      </div>
+      <div class="clear"></div>
+
+    </section>
