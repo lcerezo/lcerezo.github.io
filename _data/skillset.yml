@@ -1,5 +1,9 @@
 - Red Hat/CentOS
+- Amazon Linux 1, 2, 2023
 - Terraform
+- AWS Serverless
+- Decoupled Systems
+- EventBridge, SQS, SNS
 - AWS VPC
 - Ansible
 - cfengine
@@ -48,3 +52,4 @@
 - containers
 - Extending Ansible
 - ansible dynamic inventories
+- I hope to learn something every day

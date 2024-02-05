@@ -165,17 +165,12 @@
       <!-- end Recognition -->
       {% endif %}
 
-      {% if site.resume_section_certifications %}
-      <!-- begin certifications -->
-      <section class="content-section">
+      <!-- {% if site.resume_section_certifications %}
+      begin certifications -->
+      
+      {% include resume/certifications.html %}
 
-        <header class="section-header">
-          <h2>Certifications</h2>
-        </header>
-        {% for certification in site.data.certifications %}
-          {{ certification.badge }} {% endfor %}
-      </section>
-      <!-- end certifications -->
+
       {% endif %}
 
       {% if site.resume_section_interests %}
@@ -202,7 +197,7 @@
   {% include resume/wordsalad.html %}
 
   <!-- end word salad -->
-      
+
       {% if site.resume_section_links %}
       <!-- begin Links -->
       <section class="content-section">
@@ -250,4 +245,4 @@
 
   {% include /analytics-providers/google-universal.html %}
 
-</html>
+  </html>
