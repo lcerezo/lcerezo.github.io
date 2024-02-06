@@ -1,14 +1,30 @@
-- certification: AWS SAA
-  badge: <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3b977cf1-c114-47ad-8f10-6010028e81dd" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-- certification: AWS SOA
-  badge: <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="88d4c855-41e2-4129-9fb2-f5a73a81935b" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-- certification: AWS SAPRO
-  badge: <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c60273ff-69fe-4ee4-937a-d2c2297e54e3" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-- certification: AWS SCS
-  badge: <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="fc9f57fa-aa81-4141-83a1-be06c5d8cb52" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-- certification: ANS-C00
-  badge: <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="6bbb9b74-f957-4b3d-b253-ef19fe03eb71" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-- certification: Terraform Associate
-  badge: <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="9ad79e0f-4181-4d78-bfaa-bd2cf4d34a5f" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-- certification: AWS Dev Ass.
-  badge: <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a974a9d9-0e57-42e6-95d2-21ab06d5a8ff" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+# - certifications:
+#   badge: <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3b977cf1-c114-47ad-8f10-6010028e81dd" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+# - certification: AWS SOA
+#   badge: <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="88d4c855-41e2-4129-9fb2-f5a73a81935b" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+# - certification: AWS SAPRO
+#   badge: <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c60273ff-69fe-4ee4-937a-d2c2297e54e3" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+# - certification: AWS SCS
+#   badge: <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="fc9f57fa-aa81-4141-83a1-be06c5d8cb52" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+# - certification: ANS-C00
+#   badge: <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="6bbb9b74-f957-4b3d-b253-ef19fe03eb71" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+# - certification: Terraform Associate
+#   badge: <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="9ad79e0f-4181-4d78-bfaa-bd2cf4d34a5f" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+# - certification: AWS Dev Ass.
+#   badge: <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a974a9d9-0e57-42e6-95d2-21ab06d5a8ff" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+- "3e0e4c5d-9737-4cc8-9189-a8e733234a6b"
+- "a974a9d9-0e57-42e6-95d2-21ab06d5a8ff"
+- "d818a891-d269-4bc2-9573-f7a75cf5d5ac"
+- "c60273ff-69fe-4ee4-937a-d2c2297e54e3"
+- "88d4c855-41e2-4129-9fb2-f5a73a81935b"
+- "41b2ee4b-e63b-4e73-9a6f-fbbc484d06bf"
+- "5929e84f-87e1-4956-a7bb-3cc40a991c51"
+- "fc9f57fa-aa81-4141-83a1-be06c5d8cb52"
+- "9ad79e0f-4181-4d78-bfaa-bd2cf4d34a5f"
+- "6bbb9b74-f957-4b3d-b253-ef19fe03eb71"
+- "26efcd6b-2b70-48a0-8f01-e313801d6d20"
+- "5d2c6580-8f81-4e95-bbea-8262115d321c"
+- "2fd20de0-ddfb-462a-8bab-760e74441c31"
+- "41dc8261-2596-4523-bca8-651c45bf2648"
+- "05d4e559-01bb-4fda-9823-76e8d7c39f17"
+- "b52862b6-cef6-4da4-b6ad-836644ad1b40"
