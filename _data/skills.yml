@@ -1,11 +1,12 @@
-- skill: Linux/Unix & Infrastructure services
-  description:  20+ years managing various systems in a wide variety of flavors and scales.
-
-- skill: Splunk
-  description: 5 years managing, administering and extending Splunk
-
+- skill: Operations and Architectual Leadership
+  description: 20+ years across various industries building resilient architectures and operations crossing people, processes and tools
+  
 - skill: AWS and other cloud services
   description: Several years experience building, operating and managing AWS environments and cloud services
 
+- skill: Linux/Unix & Infrastructure services
+  description:  20+ years managing various systems in a wide variety of flavors and scales.
+
 - skill: Automation tooling
   description: Over 13 years experience in automation tools such as cfengine, puppet, ansible and terraform.
+
