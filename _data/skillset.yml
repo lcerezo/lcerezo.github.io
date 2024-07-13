@@ -2,8 +2,11 @@
 - Amazon Linux 1, 2, 2023
 - Terraform
 - AWS Serverless
+- Event Driven Architectures
+- Step Functions
+- SNS, SQS
 - Decoupled Systems
-- EventBridge, SQS, SNS
+- EventBridge
 - AWS VPC
 - Ansible
 - cfengine
@@ -53,3 +56,4 @@
 - Extending Ansible
 - ansible dynamic inventories
 - I hope to learn something every day
+- Data, Dog. 
