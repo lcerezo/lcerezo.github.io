@@ -4,9 +4,9 @@ permalink: /about/
 author: Luis
 ---
 
-Professionally, I've worked in technology since 1998 serving a variety of roles, from desktop support, to my current TAM/EAE work.
+Professionally, I've worked in technology since 1998 serving a variety of roles, from desktop support, sysadmin around the globe, SRE work operating the payment gateway to the largest QSR on the planet (at the time...) to my current TAM/EAE work at AWS.
 
-I currently work at AWS helping organizations find operational efficiencies in the cloud. This work ranges from architectural improvements such as resiliency & o11y, business and operational process improvements, cost optimization and more. 
+Today I'm at AWS helping organizations find operational efficiencies and build continuous resiliency in the cloud. This work ranges from architectural improvements such as resiliency & o11y, business and operational process improvements, cost optimization and more. 
 Until [then...](https://www.linkedin.com/in/luiscerezo/) or --> [resume]({% link _pages/resume.md %}).
 
 ## A day in the life of...
