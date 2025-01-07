@@ -1,0 +1,17 @@
+      <!-- begin Endorsements -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Work Endorsements</h2>
+        </header>
+
+        <div class="resume-item">
+          <ul class="resume-item-list">
+            {% for endorsement in site.data.res-endorsements %}
+            <li>{{ endorsement.quote }} - {{ endorsement.endorser }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+
+      </section>
+      <!-- end Endorsements -->
