@@ -29,7 +29,7 @@
 - Selinux enforcing
 - DevOps
 - git and ops
-- systems fail, people learn.
+- all systems fail, smart people learn.
 - Blameless post incident reviews > root cause analysis
 - Reliability is a core feature.
 - Move secuirty efforts to the left.
@@ -50,7 +50,7 @@
 - Lifelong student, Coach when needed
 - Monitoring
 - Nagios
-- Docker
+- Docker also Finch!
 - data dog
 - containers
 - Extending Ansible
