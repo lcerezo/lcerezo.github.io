@@ -1,7 +1,8 @@
 ---
-tile: found
+title: YOU FOUND MY THING!
 permalink: /found/
-layout: splash
+header:
+  overlay_image: /assets/images/goat_mountain.jpg
 ---
 
 
