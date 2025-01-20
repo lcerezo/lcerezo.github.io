@@ -1,6 +1,6 @@
 ---
 tile: found
-permalink: /found
+permalink: /found/
 layout: splash
 ---
 
