@@ -1,6 +1,7 @@
 ---
 title: YOU FOUND MY THING!
 permalink: /found/
+layout: none
 header:
   overlay_image: /assets/images/goat_mountain.jpg
 ---
