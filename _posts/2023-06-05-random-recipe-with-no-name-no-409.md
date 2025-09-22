@@ -1,5 +1,5 @@
 ---
-title: random recipie with no name no. 409
+title: random recipe with no name no. 409
 tags: recipe
 date: 2023-06-05
 ---
