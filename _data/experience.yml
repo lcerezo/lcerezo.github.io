@@ -1,58 +1,63 @@
 - company: Amazon Web Services &bull; <abbr title="Field By Design">FBD</abbr>/<abbr title="Financial Services Industries">FSI</abbr>
   position: Sr. Technical Account Manager, US West (<abbr title="L6, Job Family=solarch">Enterprise Account Engineer III</abbr> )
   duration: Feb 2024 &mdash; Present
-  summary: Same role, Now in delicious industry verticals. 
+  summary: Same role, now focused on Financial Services Industries vertical.
+  highlights:
+    - Serve as New TAM Onboarding Coach, mentoring and developing newly hired Technical Account Managers across technical and customer engagement best practices.
+    - Leadership team member for TFC Prototyping Focus Area, driving innovation and rapid solution development for complex customer challenges.
+    - Active member of Serverless TFC, contributing to serverless architecture patterns and best practices across the TAM community.
+    - Steering committee member for public events with <a href="https://bawsug.github.io">Boulder AWS User Group</a>, fostering community engagement and knowledge sharing. 
 - company: Amazon Web Services &bull; <abbr title="Field By Design">FBD</abbr>/US West
   position: Sr. Technical Account Manager, US West (<abbr title="L6, Job Family=solarch">Enterprise Account Engineer III</abbr> )
   duration: April 2021 &mdash; Feb 2024
-  summary: The TAM role blends the Solutions Architect and Business account management roles to proactively support large enterprises build and succeed in AWS.
+  summary: The TAM role blends the Solutions Architect and Business account management roles to proactively support large enterprises to build and succeed in AWS.
   highlights:
-    - Act as a <b>Trusted Advisor</b> to Customer Senior Leadership to proactively guide architecture decisions for maximum efficiency and minimize risks. 
-    - Act as Customer Enterprise Architect, supporting design and architecture guidance for AWS and hybrid workloads
-    - Provide strategic and proactive guidance and support to customer C-suite and Sr. Leadership 
-    - Act as Customer advocate inside of AWS, driving AWS product road maps to align with customer needs. 
-    - Provide Technical Deep Dives on various AWS services to help drive business outcomes.
-    - <a href=https://tableflip.luicerez.people.aws.dev> Build Proofs of Concept in AWS</a> to help solve customer challenges
-    - Facilitate, Build and Operate customer staff educational engagements from small workshops, immersion days to game days and more.
-    - Cost Optimization - Provide deep insight to architectural designs that lower operational costs and AWS bills.
-    - Operational improvement using Well Architected Reviews with focus on performance, security, reliability, resilience, operational efficiency and cost optimization.
-    - Enable customers to optimize for cost, operational efficiency and security posture using best practices and periodic reviews of architecture
-    - Proactively guide large organizations towards operational excellence to prevent business and brand impacting events.
-    - And so <a href="https://bit.ly/2AivWrM">much</a> <a href="https://www.lastweekinaws.com/podcast/aws-morning-brief/aws-account-teams-and-you/"> much</a> <a href="https://www.amazon.jobs/en/search?base_query=Technical+Account+Manager">more.</a>
+    - Accelerated customer strategic outcomes by delivering architectural and operational guidance across AWS Well-Architected pillars, resulting in improved performance, optimized costs, and increased security posture.
+    - Delivered sustainable cost optimization by improving operational health through right-sizing, automation, and architectural efficiency, ensuring cost reductions align with performance and reliability requirements.
+    - Acted as <b>Trusted Advisor</b> to Customer Senior Leadership to proactively guide architecture decisions for maximum efficiency and minimize risks, preventing business and brand impacting events.
+    - Drove operational excellence by conducting Strategic Business Reviews and optimization exercises, validating performance against desired outcomes and identifying continuous improvement opportunities.
+    - Enhanced organizational resilience through proactive planning engagements, assessing cloud maturity and advising across operational excellence, security, reliability, and performance efficiency pillars.
+    - Acted as Customer advocate inside of AWS, driving AWS product road maps to align with customer needs and accelerate innovation adoption.
+    - Built customer cloud expertise through hands-on workshops, immersion days, and game days, increasing team capabilities and reducing operational risks.
+    - <a href=https://tableflip.luicerez.people.aws.dev> Built Proofs of Concept in AWS</a> to solve complex customer challenges and validate architectural approaches before full-scale implementation.
+    - Delivered measurable business outcomes by providing consultative guidance on best practices, helping customers transition from cost-focused discussions to strategic growth initiatives.
+    - Proactively prevented operational incidents through continuous monitoring, architectural reviews, and implementation of AWS best practices across mission-critical workloads.
+    - Designed and operated large-scale Game Days, creating realistic failure scenarios to test organizational resilience and incident response capabilities.
+    - And so <a href="https://www.lastweekinaws.com/podcast/aws-morning-brief/aws-account-teams-and-you/"> much</a> <a href="https://www.amazon.jobs/en/search?base_query=Technical+Account+Manager">more.</a>
 
 - company: PLXIS (An <a href=https://www.ipcoop.com>IPC Company</a>) &bull; Remote
   position: Sr. Infrastructure Engineer/Sr. SRE
   duration: January 2015 &mdash; April 2021
-  summary:  Part of a small and amazing team that manages, develops, continuously improves the <abbr title="Integrated Credit and Debit">ICD</abbr> and Gift Card platform for one of the world's <abbr title="Subway (The sandwich chain)">most recognizable brands</abbr> serving over 25K locations. We have an ICD Processing volume of 6 Billion USD annually with a reliability of over 5 9's.
+  summary: Part of a small and amazing team that manages, develops, continuously improves the <abbr title="Integrated Credit and Debit">ICD</abbr> and Gift Card platform for one of the world's <abbr title="Subway (The sandwich chain)">most recognizable brands</abbr> serving over 25K locations. We have an ICD Processing volume of 6 Billion USD annually with a reliability of over 5 9's.
   highlights:
-    - Reduced AWS spend 21% Using various standard strategies and contract negotiations with 3rd party vendors using private offers.
+    - Reduced AWS spend 21% using various standard strategies and contract negotiations with 3rd party vendors using private offers.
     - Implemented a paging and alerting system that reduced staff pager fatigue by reducing false/no action needed pages by over 99%.
-    - Led Continuous improvement of incident response policies, on-call policies. (<abbr title="Post Incident Reviews, Inspired by Jason Hand's book of the same name">PIR</abbr> > Post Mortem, blameless is the way)
-    - Co-led design of AWS infrastructure, including VPC, network, sg and network designs, Implemented in Terraform.
-    - Moved and translated on premise shared services such as squid and splunk to AWS, with automated deployment through SDLC/env implemented in Terraform, ansible and other tooling.
-    - Due to business requirements, Redesigned Splunk again to run in AWS, using Terrafrom and ansible (above).
+    - Led continuous improvement of incident response policies, on-call policies. (<abbr title="Post Incident Reviews, Inspired by Jason Hand's book of the same name">PIR</abbr> > Post Mortem, blameless is the way)
+    - Co-led design of AWS infrastructure, including VPC, network, and security group designs, implemented in Terraform.
+    - Moved and translated on-premise shared services such as Squid and Splunk to AWS, with automated deployment through SDLC/env implemented in Terraform, Ansible and other tooling.
+    - Due to business requirements, redesigned Splunk again to run in AWS, using Terraform and Ansible (above).
     - Co-led redesign of on-premise cage architecture that allowed for improved reliability and deployability. Covered most deployment and configuration of cage infra using Ansible.
-    - Redesigned and implemented Splunk architecture and controlled Splunk Cluster deployments and configuration in Ansible
+    - Redesigned and implemented Splunk architecture and controlled Splunk Cluster deployments and configuration in Ansible.
     - Remote management of data center cages and PoPs with occasional travel on-site when required
-    - Stayed out of the news, Remain unknown to Krebs on Security.
-    - Respond to PCI/DSS deficiencies and Security audits.
-    - Pair on continuous improvements to our tools, architecture and systems.
+    - Prioritized security throughout the development lifecycle, shifting security left to identify and remediate vulnerabilities early, preventing incidents from becoming newsworthy events or attracting attention from security researchers.
+    - Responded to PCI/DSS deficiencies and Security audits.
+    - Paired with team on continuous improvements to our tools, architecture and systems.
 
 - company: Viasat/Exede &bull; Denver, Colorado
   position: Senior Red Hat Linux Engineer
   duration: March 2012 &mdash; January 2015
   summary: Individual Contributor on a medium sized team responsible for the billing, customer onboarding and provisioning of satellite internet for residential and commercial aircraft services. 
   highlights:
-   - Support the back office systems RHEL5,6 and Solaris  in a 24/7 zero downtime environment
-   - Support and configured boot off SAN hosts and data (HP XP24000/Hitachi USP-V)
-   - Participate in team lead design decisions
-   - Participate in 24/7 on-call rotation
+   - Supported the back office systems RHEL 5, 6 and Solaris in a 24/7 zero downtime environment
+   - Supported and configured boot off SAN hosts and data (HP XP24000/Hitachi USP-V)
+   - Participated in team lead design decisions
+   - Participated in 24/7 on-call rotation
    - Led small team Oracle RAC redesign and DB redesign.
-   - Participate in small team for datacenter DR config and testing
-   - Respond to PCI and SOX deficiencies and Security & patch audits
+   - Participated in small team for datacenter DR config and testing
+   - Responded to PCI and SOX deficiencies and Security & patch audits
    - Various scripts written as needed, in perl and bash and now python
-   - Assist middleware teams with configuration & system design
-   - Rebuild and correct deficiencies in puppet deployment
+   - Assisted middleware teams with configuration & system design
+   - Rebuild and correct deficiencies in Puppet deployment
 
 - company: Petroleum Geo-Services &bull; Houston, Texas
   position: Sr. Linux Engineer
