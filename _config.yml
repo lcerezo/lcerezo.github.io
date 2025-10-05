@@ -60,6 +60,24 @@ bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
 
+# SEO Plugin Configuration
+logo: /assets/images/avatar.jpg
+social:
+  name: Luis E. Cerezo
+  links:
+    - https://twitter.com/luiscerezo
+    - https://www.linkedin.com/in/luiscerezo
+    - https://github.com/lcerezo
+    - https://www.flickr.com/photos/luiscerezo
+    - https://keybase.io/lcerezo
+
+# Default SEO settings
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/patch_panel_header.jpg
+
 # Social Sharing
 twitter:
   username               : luiscerezo
@@ -195,6 +213,7 @@ plugins:
   - jemoji
   - jekyll-redirect-from
   - jekyll-art-gallery-generator
+  - jekyll-seo-tag
 
 # mimic GitHub Pages with --safe
 whitelist:
