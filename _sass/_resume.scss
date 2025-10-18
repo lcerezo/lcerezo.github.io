@@ -196,6 +196,83 @@
 
 .print-only { display: none !important }
 
+// Country Popover styles
+.country-popover {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  max-width: 350px;
+  width: calc(100% - 40px);
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none;
+
+  &.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+    pointer-events: auto;
+  }
+
+  @media print {
+    display: none !important;
+  }
+}
+
+.country-popover-content {
+  padding: 20px;
+  position: relative;
+}
+
+.country-popover-flag {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+
+.country-popover-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+  color: #999;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: #333;
+  }
+}
+
+.country-popover-title {
+  @include sans_bold;
+  font-size: 1.25rem;
+  margin: 0 0 10px;
+  padding-right: 30px;
+  color: #333;
+}
+
+.country-popover-message {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #666;
+}
+
 @media print {
   .no-print { display: none !important }
   .print-only { display: block !important }
