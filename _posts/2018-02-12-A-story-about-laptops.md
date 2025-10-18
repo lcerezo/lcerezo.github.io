@@ -22,7 +22,7 @@ This latest iteration of the MacBook Pro is still an amazing machine. It is insa
  Then there's the other controversial feature. That keyboard. That thin butterfly keyboard. That horrible abomination of a keyboard.
 
 >Keyboards to many, especially in a role like mine, are shall we say, are a little divisive. No matter what keyboard you like, and there are many, one feature we all agree should be good is that when a key is pressed, it should register that keypress. This keyboard does not do that.
-![keyboards]({{ site.url}}/assets/images/wierd_keyboards.png)
+![keyboards]({{ site.url}}/assets/images/wierd_keyboards.jpg)
 
 My work recently sent me one of these new mbp to replace the aging 2014 model. I locked my selfout of the laptop within 10 minutes of opening it, due to
 * my password resembling modem noise
