@@ -5,67 +5,167 @@
   const countryMessages = {
     'US': {
       flag: '🇺🇸',
-      title: 'Visiting from the United States!',
+      title: 'Hello! Visiting from the United States!',
       message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (United States) and remote roles!'
     },
     'GB': {
       flag: '🇬🇧',
-      title: 'Visiting from the United Kingdom!',
+      title: 'Hello! Visiting from the United Kingdom!',
       message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Europe) and remote roles!'
     },
     'CA': {
       flag: '🇨🇦',
-      title: 'Visiting from Canada!',
+      title: 'Hello! Visiting from Canada!',
       message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Canada) and remote roles!'
     },
     'DE': {
       flag: '🇩🇪',
-      title: 'Visiting from Germany!',
+      title: 'Hallo! Visiting from Germany!',
       message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Europe) and remote roles!'
     },
     'IE': {
       flag: '🇮🇪',
-      title: 'Visiting from Ireland!',
+      title: 'Dia dhuit! Visiting from Ireland!',
       message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Europe) and remote roles!'
     },
     'ES': {
       flag: '🇪🇸',
-      title: 'Visiting from Spain!',
+      title: '¡Hola! Visiting from Spain!',
       message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Europe) and remote roles!'
     },
     'NL': {
       flag: '🇳🇱',
-      title: 'Visiting from the Netherlands!',
+      title: 'Hallo! Visiting from the Netherlands!',
       message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Europe) and remote roles!'
     },
     'NZ': {
       flag: '🇳🇿',
-      title: 'Visiting from New Zealand!',
+      title: 'Kia ora! Visiting from New Zealand!',
       message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Asia-Pacific) and remote roles!'
     },
     'BE': {
       flag: '🇧🇪',
-      title: 'Visiting from Belgium!',
+      title: 'Bonjour! Visiting from Belgium!',
       message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Europe) and remote roles!'
     },
     'NO': {
       flag: '🇳🇴',
-      title: 'Visiting from Norway!',
+      title: 'Hei hei! Visiting from Norway!',
       message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Nordic region) and remote roles!'
     },
     'SE': {
       flag: '🇸🇪',
-      title: 'Visiting from Sweden!',
+      title: 'Hej! Visiting from Sweden!',
       message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Nordic region) and remote roles!'
     },
     'LT': {
       flag: '🇱🇹',
-      title: 'Visiting from Lithuania!',
+      title: 'Labas! Visiting from Lithuania!',
       message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Europe) and remote roles!'
     },
     'PL': {
       flag: '🇵🇱',
-      title: 'Visiting from Poland!',
+      title: 'Cześć! Visiting from Poland!',
+      message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Europe) and remote roles!'
+    },
+    'CN': {
+      flag: '🇨🇳',
+      title: '你好！Visiting from China!',
+      message: 'Thanks for checking out my resume. Unfortunately, I\'m not available for opportunities in China at this time, but I am available for remote roles!'
+    },
+    'AU': {
+      flag: '🇦🇺',
+      title: 'G\'day! Visiting from Australia!',
+      message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Asia-Pacific) and remote roles!'
+    },
+    'FR': {
+      flag: '🇫🇷',
+      title: 'Bonjour! Visiting from France!',
+      message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Europe) and remote roles!'
+    },
+    'IN': {
+      flag: '🇮🇳',
+      title: 'Namaste! Visiting from India!',
+      message: 'Thanks for checking out my resume. Unfortunately, I\'m not available for opportunities in India at this time, but I am available for remote roles!'
+    },
+    'JP': {
+      flag: '🇯🇵',
+      title: 'Konnichiwa! Visiting from Japan!',
+      message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Asia-Pacific) and remote roles!'
+    },
+    'KR': {
+      flag: '🇰🇷',
+      title: 'Annyeonghaseyo! Visiting from South Korea!',
+      message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Asia-Pacific) and remote roles!'
+    },
+    'SG': {
+      flag: '🇸🇬',
+      title: 'Hello! Visiting from Singapore!',
+      message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Asia-Pacific) and remote roles!'
+    },
+    'ZA': {
+      flag: '🇿🇦',
+      title: 'Howzit! Visiting from South Africa!',
+      message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Africa) and remote roles!'
+    },
+    'BR': {
+      flag: '🇧🇷',
+      title: 'Olá! Visiting from Brazil!',
+      message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Latin America) and remote roles!'
+    },
+    'MX': {
+      flag: '🇲🇽',
+      title: '¡Hola! Visiting from Mexico!',
+      message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Latin America) and remote roles!'
+    },
+    'AR': {
+      flag: '🇦🇷',
+      title: '¡Hola! Visiting from Argentina!',
+      message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Latin America) and remote roles!'
+    },
+    'IT': {
+      flag: '🇮🇹',
+      title: 'Ciao! Visiting from Italy!',
+      message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Europe) and remote roles!'
+    },
+    'PT': {
+      flag: '🇵🇹',
+      title: 'Olá! Visiting from Portugal!',
+      message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Europe) and remote roles!'
+    },
+    'CH': {
+      flag: '🇨🇭',
+      title: 'Grüezi! Visiting from Switzerland!',
+      message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Europe) and remote roles!'
+    },
+    'DK': {
+      flag: '🇩🇰',
+      title: 'Hej! Visiting from Denmark!',
+      message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Nordic region) and remote roles!'
+    },
+    'FI': {
+      flag: '🇫🇮',
+      title: 'Hei! Visiting from Finland!',
+      message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Nordic region) and remote roles!'
+    },
+    'AE': {
+      flag: '🇦🇪',
+      title: 'Marhaba! Visiting from UAE!',
+      message: 'Thanks for checking out my resume. Unfortunately, I\'m not available for opportunities in UAE at this time, but I am available for remote roles!'
+    },
+    'IL': {
+      flag: '🇮🇱',
+      title: 'Shalom! Visiting from Israel!',
+      message: 'Thanks for checking out my resume. Unfortunately, I\'m not available for opportunities in Israel at this time, but I am available for remote roles!'
+    },
+    'IS': {
+      flag: '🇮🇸',
+      title: 'Halló! Visiting from Iceland!',
+      message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Europe) and remote roles!'
+    },
+    'GR': {
+      flag: '🇬🇷',
+      title: 'Yassas! Visiting from Greece!',
       message: 'Thanks for checking out my resume. I\'m available for opportunities in your region (Europe) and remote roles!'
     },
     'default': {
@@ -150,6 +250,13 @@
       });
   }
 
+  // Sanitize text to prevent XSS
+  function sanitizeText(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+  }
+
   // Create and show the popover
   function showPopover(countryCode, timezone, city) {
     const config = countryMessages[countryCode] || countryMessages['default'];
@@ -167,17 +274,23 @@
     }
 
     // Customize title with greeting
-    let title = `${greeting}!`;
+    let title = config.title; // Use the country-specific title with local greeting
     if (city && !isReturning) {
-      title = `Thank you for visiting from ${city}!`;
+      // Sanitize city name to prevent XSS
+      const sanitizedCity = sanitizeText(city);
+      // Extract the greeting from the config title (everything before "Visiting")
+      const localGreeting = config.title.split('Visiting')[0].trim();
+      title = `${localGreeting} Visiting from ${sanitizedCity}!`;
+    } else if (isReturning) {
+      title = `${greeting}!`;
     }
 
     // Build message with context
     let message = config.message;
 
-    // Add referrer context
+    // Add referrer context (avoid double "Thanks" by replacing beginning)
     if (referrer) {
-      message = `Thanks for coming from ${referrer}! ${message}`;
+      message = `Thanks for coming from ${referrer}! ${message.replace(/^Thanks for checking out my resume\.\s*/, '')}`;
     }
 
     // Add device-specific note
