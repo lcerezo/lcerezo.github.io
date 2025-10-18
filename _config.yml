@@ -12,7 +12,7 @@ locale                   : "en-US"
 title                    : "Why did you come here?"
 title_separator          : ""
 name                     : "Luis E. Cerezo"
-description              : ""
+description              : "Lifelong learner with strong opinions loosely held. Musings on cloud, reliability, technology, and random stuff that crosses my mind."
 url                      : "https://www.luiscerezo.org" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : lcerezo/lcerezo.github.io
