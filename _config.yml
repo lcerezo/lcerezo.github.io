@@ -88,10 +88,6 @@ facebook:
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
 
 # Analytics
 analytics:
@@ -214,6 +210,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-art-gallery-generator
   - jekyll-seo-tag
+  - jekyll-last-modified-at
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -312,12 +309,12 @@ resume_section_certifications:    true
 # Resume social links
 resume_social_links:
   resume_github_url:            "https://github.com/lcerezo"
-  resume_twitter_url:           "http://twitter.com/luiscerezo"
+  resume_twitter_url:           "https://twitter.com/luiscerezo"
   #resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
   resume_linkedin_url:          "https://www.linkedin.com/in/luiscerezo"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://luiscerezo.org"
+  resume_website_url:           "https://luiscerezo.org"
   #resume_medium_url:            "https://medium.com/@jglovier"
 resume_print_social_links:      true
 resume_theme:                   default

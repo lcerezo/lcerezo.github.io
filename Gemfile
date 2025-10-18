@@ -5,4 +5,5 @@ gem 'commonmarker'
 gem 'webrick'
 gem 'faraday-retry'
 gem 'jekyll-seo-tag'
+gem 'jekyll-last-modified-at'
 

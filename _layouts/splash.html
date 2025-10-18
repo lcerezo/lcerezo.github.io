@@ -20,8 +20,14 @@ layout: default
     </section>
     <section class="page__datepublished" itemprop="text">
     {% if page.date %}
-
     Published on {{ page.date | date: "%B %d, %Y" }}
+    {% endif %}
+    {% if page.last_modified_at %}
+      {% assign modified_date = page.last_modified_at | date: "%B %d, %Y" %}
+      {% assign published_date = page.date | date: "%B %d, %Y" %}
+      {% unless modified_date == published_date %}
+        <br>Last updated: {{ page.last_modified_at | date: "%B %d, %Y" }}
+      {% endunless %}
     {% endif %}
   </section>
   </article>
