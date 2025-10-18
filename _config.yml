@@ -295,7 +295,7 @@ resume_title:                   ""
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "Luis is the right candidate <hire@luiscerezo.org>?subject=Come work with us, Luis  "
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "412 223 7396"
+resume_contact_telephone:       ""
 resume_contact_address:         "Colorado and the world"
 resume_header_contact_info:     ""
 resume_header_intro: "An experienced technologist with a strong desire to learn, share and improve myself, systems, processes, reliability, and peers everyday. Helper."
