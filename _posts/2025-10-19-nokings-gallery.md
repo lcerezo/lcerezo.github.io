@@ -7,7 +7,7 @@ header:
 
 NO KINGS 2025
 
-We fought a revolution to reject monarchy. Protesting keeps that spirit alive. When power forgets it answers to the people, we remind them. These are a few photos of my favorite protest signs.
+We fought a revolution to reject monarchy. Protesting keeps that spirit alive. When power forgets it answers to the people, we remind them. These are a few photos of my favorite protest signs I found across the interwebs.
 
 <div id="gallery-container" class="photo-gallery">
   <div class="gallery-grid"></div>
