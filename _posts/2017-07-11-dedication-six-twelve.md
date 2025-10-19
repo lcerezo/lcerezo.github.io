@@ -1,6 +1,8 @@
 ---
 title: a dedication six twelve update
 author: Luis
+header:
+  show_overlay_excerpt: false
 ---
 
 A [dedication six twelve](https://dedication6twelve.github.io) inspired update

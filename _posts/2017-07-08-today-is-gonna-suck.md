@@ -1,6 +1,8 @@
 ---
 title: Pure joy cannot hide.
 author: Luis Cerezo
+header:
+  show_overlay_excerpt: false
 ---
 I woke up today with the feeling that today is gonna suck. Then I remembered a photo on Facebook.
 

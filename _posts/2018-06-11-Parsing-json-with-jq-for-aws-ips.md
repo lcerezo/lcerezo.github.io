@@ -1,6 +1,8 @@
 ---
 title: Parsing json data from AWS with jq for IPs and IPV6
 author: Luis
+header:
+  show_overlay_excerpt: false
 ---
 
 # AWS JSON IPV6

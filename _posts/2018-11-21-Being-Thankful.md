@@ -1,6 +1,8 @@
 ---
 title: being thankful
 date: 2018-11-21
+header:
+  show_overlay_excerpt: false
 ---
 
 # A message of thanks.

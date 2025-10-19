@@ -1,6 +1,8 @@
 ---
 title: my grandparents wedding day
 Author: Luis Cerezo
+header:
+  show_overlay_excerpt: false
 ---
 
 # An old photo and a silly idea

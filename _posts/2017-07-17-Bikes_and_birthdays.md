@@ -1,6 +1,8 @@
 ---
 title: bikes and birthday
 author: Luis
+header:
+  show_overlay_excerpt: false
 ---
 
 The weekend was good. I took naps, shot some photos.

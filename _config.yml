@@ -277,6 +277,7 @@ defaults:
       header:
         overlay_image: /assets/images/fenway_ballpark_seats_bw.jpg
         caption: a silly blog
+        show_overlay_excerpt: false
   - scope:
       path: ""
       type: pages

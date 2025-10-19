@@ -1,6 +1,8 @@
 ---
 title: This is my life now
 date: 2022-05-19
+header:
+  show_overlay_excerpt: false
 ---
 This is my life now.
 

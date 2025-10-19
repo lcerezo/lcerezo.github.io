@@ -1,6 +1,8 @@
 ---
 title: Squirrels are meth-head jerks
 author: Luis Cerezo
+header:
+  show_overlay_excerpt: false
 ---
 
 The squirrel chronicles

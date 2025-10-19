@@ -1,6 +1,8 @@
 ---
 title: Kashi Squirrels and a hot dog is a sandwich.
 author: Luis Cerezo
+header:
+  show_overlay_excerpt: false
 ---
 Some quick updates today. Don't let the #fakenews tell you otherwise. A hot dog is a sandwich. Also, the squirrels are evolving. watch out.
 

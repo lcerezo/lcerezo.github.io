@@ -1,10 +1,11 @@
 ---
 Author: Luis
 Title: Failure is a good thing.
-caption:   
+caption:
 header:
   overlay_image: /assets/images/goat_mountain.jpg
   overlay_color: "#5e616c"
+  show_overlay_excerpt: false
 ---
 
 # Failure is a good thing

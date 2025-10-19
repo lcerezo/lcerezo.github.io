@@ -1,6 +1,8 @@
 ---
 title: Are you a Twitter asshole? A simple metric to tell if you've pissed off the twitterverse
 author: Luis Cerezo
+header:
+  show_overlay_excerpt: false
 ---
 
 

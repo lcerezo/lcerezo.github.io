@@ -3,6 +3,7 @@ Author: Luis
 Title: A story about laptops, part 3
 header:
   overlay_image: /assets/images/bike_blur.jpg
+  show_overlay_excerpt: false
 ---
 
 

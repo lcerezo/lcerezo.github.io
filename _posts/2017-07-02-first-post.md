@@ -1,6 +1,8 @@
 ---
 title: Another first post, Here we go again.
 author: Luis Cerezo
+header:
+  show_overlay_excerpt: false
 ---
 ## Failure is a good thing.
 

@@ -1,6 +1,8 @@
 ---
 title: Yes, I'm not dead yet.
 date: 2021-11-09 19:00:00
+header:
+  show_overlay_excerpt: false
 ---
 
 What's there to say? I'm not dead yet.

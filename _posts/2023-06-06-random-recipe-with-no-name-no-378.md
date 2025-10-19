@@ -2,6 +2,8 @@
 title: random recipe with no name no. 378
 tags: recipe
 date: 2023-06-06
+header:
+  show_overlay_excerpt: false
 ---
 
 <style>

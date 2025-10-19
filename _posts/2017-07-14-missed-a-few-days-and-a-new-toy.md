@@ -1,6 +1,8 @@
 ---
 title: A few good days and a new toy
 author:
+header:
+  show_overlay_excerpt: false
 ---
 
 I missed a few days. My team at work and I were working pretty late into the night at the remote datacenter on this mega waterfall. (that's not the way we should work and we know it...)

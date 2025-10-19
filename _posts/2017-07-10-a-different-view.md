@@ -1,6 +1,8 @@
 ---
 title: a different view.
 Author: Luis Cerezo
+header:
+  show_overlay_excerpt: false
 ---
 
 Sometimes we all need a bit of perspective. I've been challenging myself to look at things differently.

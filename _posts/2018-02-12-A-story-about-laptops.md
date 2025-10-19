@@ -3,6 +3,7 @@ Author: Luis
 Title: A story about laptops
 header:
   overlay_image: /assets/images/goat_mountain.jpg
+  show_overlay_excerpt: false
 ---
 # A story about laptops and a very sad apple.
 

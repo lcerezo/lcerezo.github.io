@@ -1,6 +1,8 @@
 ---
 title: every. flippin' time.
 date: 2024-07-12
+header:
+  show_overlay_excerpt: false
 ---
 
 every. time.

@@ -1,6 +1,8 @@
 ---
 title: good fucking rice.
 date: 2023-07-27
+header:
+  show_overlay_excerpt: false
 ---
 
 <style>

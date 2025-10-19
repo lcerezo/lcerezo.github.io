@@ -1,6 +1,8 @@
 ---
 title: my dedication six twelve.
 author: Luis Cerezo
+header:
+  show_overlay_excerpt: false
 ---
 
 This is inspired by [Diesel](https://dedication6twelve.github.io/)

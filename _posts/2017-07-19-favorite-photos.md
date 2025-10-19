@@ -1,6 +1,8 @@
 ---
 title: some of my favorite instagrams this week
 author: Luis
+header:
+  show_overlay_excerpt: false
 ---
 
 Instagram Love

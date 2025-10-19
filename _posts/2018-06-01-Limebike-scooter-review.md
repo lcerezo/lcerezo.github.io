@@ -1,6 +1,8 @@
 ---
 Author: Luis
 Title: Limebike scooter reviiew
+header:
+  show_overlay_excerpt: false
 ---
 
 A quick review of lime bike scooters.

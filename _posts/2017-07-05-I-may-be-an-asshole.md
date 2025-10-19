@@ -1,6 +1,8 @@
 ---
 title: I may be an asshole.
 author: Luis Cerezo
+header:
+  show_overlay_excerpt: false
 ---
 
 ## I may be an asshole.

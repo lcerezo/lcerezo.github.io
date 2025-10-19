@@ -1,6 +1,8 @@
 ---
 title: Monkeys in my head
 author: Luis Cerezo
+header:
+  show_overlay_excerpt: false
 ---
 ### Damn monkeys
 
