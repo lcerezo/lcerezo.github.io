@@ -2,6 +2,7 @@
 title: good fucking rice.
 date: 2023-07-27
 header:
+  overlay_image: /assets/images/goat_mountain.jpg
   show_overlay_excerpt: false
 ---
 

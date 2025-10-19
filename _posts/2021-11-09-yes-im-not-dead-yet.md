@@ -2,6 +2,7 @@
 title: Yes, I'm not dead yet.
 date: 2021-11-09 19:00:00
 header:
+  overlay_image: /assets/images/goat_mountain.jpg
   show_overlay_excerpt: false
 ---
 

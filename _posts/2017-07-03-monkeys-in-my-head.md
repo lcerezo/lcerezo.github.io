@@ -2,6 +2,7 @@
 title: Monkeys in my head
 author: Luis Cerezo
 header:
+  overlay_image: /assets/images/goat_mountain.jpg
   show_overlay_excerpt: false
 ---
 ### Damn monkeys

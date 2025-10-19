@@ -2,6 +2,7 @@
 title: This is my life now
 date: 2022-05-19
 header:
+  overlay_image: /assets/images/goat_mountain.jpg
   show_overlay_excerpt: false
 ---
 This is my life now.
