@@ -267,6 +267,16 @@
 
   // Fetch user's country and context using a free IP geolocation API
   function detectCountryAndContext() {
+    // TEST MODE: Uncomment to test specific countries/cities
+    // Remove sessionStorage flag first: sessionStorage.removeItem('countryPopoverShown')
+    // const testConfig = {
+    //   country_code: 'JP',  // Try: US, GB, CN, AU, ES, FR, JP, etc.
+    //   timezone: 'Asia/Tokyo',
+    //   city: 'Tokyo'  // Set to null to test country-only
+    // };
+    // showPopover(testConfig.country_code, testConfig.timezone, testConfig.city);
+    // return;
+
     // Using ipapi.co - free tier allows 1000 requests/day
     fetch('https://ipapi.co/json/')
       .then(response => response.json())
@@ -365,7 +375,7 @@
       }, 300);
     });
 
-    // Auto-hide after 10 seconds
+    // Auto-hide after 30 seconds
     setTimeout(() => {
       if (popover.parentElement) {
         popover.classList.remove('show');
@@ -373,7 +383,7 @@
           popover.remove();
         }, 300);
       }
-    }, 10000);
+    }, 30000);
 
     // Mark as shown in this session
     sessionStorage.setItem('countryPopoverShown', 'true');
