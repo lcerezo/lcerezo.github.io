@@ -83,9 +83,10 @@
     },
     'CN': {
       flag: '🇨🇳',
-      greeting: '你好！',
+      greeting: '您好！',
       country: 'China',
-      message: 'Unfortunately, I\'m not available for opportunities in China at this time, but I am available for remote roles!'
+      message: '很高兴您访问我的简历。我很好奇，是什么让您来到这里？如果您愿意分享，我很想了解。',
+      fullPage: true  // Special handling for China
     },
     'AU': {
       flag: '🇦🇺',
@@ -307,6 +308,7 @@
     const deviceType = getDeviceType();
     const referrer = getReferrerInfo();
     const language = getBrowserLanguage();
+    const isFullPage = config.fullPage || false;
 
     // Build personalized greeting
     let greeting = getTimeGreeting(timezone);
@@ -333,13 +335,13 @@
     // Build message with context
     let message = config.message;
 
-    // Add referrer context
-    if (referrer) {
+    // Add referrer context (skip for full-page variants)
+    if (referrer && !isFullPage) {
       message = `I see you found me on ${referrer}, WELCOME!!! ${message}`;
     }
 
-    // Add device-specific note
-    if (deviceType === 'mobile') {
+    // Add device-specific note (skip for full-page variants)
+    if (deviceType === 'mobile' && !isFullPage) {
       message += ' (Tip: This resume is optimized for all devices!)';
     }
 
@@ -348,7 +350,7 @@
 
     // Create popover HTML
     const popover = document.createElement('div');
-    popover.className = 'country-popover';
+    popover.className = isFullPage ? 'country-popover country-popover-fullpage' : 'country-popover';
     popover.innerHTML = `
       <div class="country-popover-content">
         <button class="country-popover-close" aria-label="Close">&times;</button>
@@ -375,15 +377,17 @@
       }, 300);
     });
 
-    // Auto-hide after 30 seconds
-    setTimeout(() => {
-      if (popover.parentElement) {
-        popover.classList.remove('show');
-        setTimeout(() => {
-          popover.remove();
-        }, 300);
-      }
-    }, 30000);
+    // Auto-hide after 30 seconds (skip for full-page variants)
+    if (!isFullPage) {
+      setTimeout(() => {
+        if (popover.parentElement) {
+          popover.classList.remove('show');
+          setTimeout(() => {
+            popover.remove();
+          }, 300);
+        }
+      }, 30000);
+    }
 
     // Mark as shown in this session
     sessionStorage.setItem('countryPopoverShown', 'true');
