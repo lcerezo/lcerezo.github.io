@@ -65,7 +65,6 @@ logo: /assets/images/avatar.jpg
 social:
   name: Luis E. Cerezo
   links:
-    - https://twitter.com/luiscerezo
     - https://www.linkedin.com/in/luiscerezo
     - https://github.com/lcerezo
     - https://www.flickr.com/photos/luiscerezo
@@ -80,7 +79,7 @@ defaults:
 
 # Social Sharing
 twitter:
-  username               : luiscerezo
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -122,7 +121,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : luiscerezo
+  twitter          :
   vine             :
   weibo            :
   xing             :
@@ -313,7 +312,7 @@ resume_section_certifications:    true
 # Resume social links
 resume_social_links:
   resume_github_url:            "https://github.com/lcerezo"
-  resume_twitter_url:           "https://twitter.com/luiscerezo"
+  #resume_twitter_url:
   #resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
   resume_linkedin_url:          "https://www.linkedin.com/in/luiscerezo"
