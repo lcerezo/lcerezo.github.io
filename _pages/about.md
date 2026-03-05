@@ -2,6 +2,7 @@
 title: About
 permalink: /about/
 author: Luis
+layout: archive
 ---
 
 Professionally, I've worked in technology since 1998 serving a variety of roles, from desktop support, sysadmin around the globe, SRE work operating the payment gateway to the largest QSR on the planet (at the time...) to my current TAM/EAE work at AWS.

@@ -1,0 +1,68 @@
+<script>
+(function() {
+  // Easter egg: click the avatar 5 times rapidly to trigger fire rain
+  var avatar = document.querySelector('.author__avatar img');
+  if (!avatar) return;
+
+  var clickCount = 0;
+  var clickTimer = null;
+  var fireRaining = false;
+
+  avatar.addEventListener('click', function(e) {
+    e.preventDefault();
+    clickCount++;
+
+    // Spawn a burst of particles from click point
+    spawnBurst(e.clientX, e.clientY, 5);
+
+    if (clickTimer) clearTimeout(clickTimer);
+    clickTimer = setTimeout(function() { clickCount = 0; }, 800);
+
+    if (clickCount >= 5 && !fireRaining) {
+      clickCount = 0;
+      fireRaining = true;
+      startFireRain();
+      setTimeout(function() { fireRaining = false; }, 6000);
+    }
+  });
+
+  function spawnBurst(x, y, count) {
+    var colors = ['#ff6a00', '#ee0979', '#ff4500', '#ffd700', '#ff8c00'];
+    for (var i = 0; i < count; i++) {
+      var p = document.createElement('div');
+      p.className = 'fire-particle';
+      var size = Math.random() * 10 + 4;
+      p.style.width = size + 'px';
+      p.style.height = size + 'px';
+      p.style.left = (x + (Math.random() - 0.5) * 40) + 'px';
+      p.style.top = y + 'px';
+      p.style.background = colors[Math.floor(Math.random() * colors.length)];
+      p.style.animationDuration = (Math.random() * 1.5 + 0.5) + 's';
+      document.body.appendChild(p);
+      setTimeout(function(el) { el.remove(); }, 2000, p);
+    }
+  }
+
+  function startFireRain() {
+    var colors = ['#ff6a00', '#ee0979', '#ff4500', '#ffd700', '#ff8c00', '#ff1744'];
+    var count = 0;
+    var interval = setInterval(function() {
+      for (var i = 0; i < 3; i++) {
+        var p = document.createElement('div');
+        p.className = 'fire-rain-particle';
+        var size = Math.random() * 12 + 4;
+        p.style.width = size + 'px';
+        p.style.height = size + 'px';
+        p.style.left = (Math.random() * window.innerWidth) + 'px';
+        p.style.background = colors[Math.floor(Math.random() * colors.length)];
+        p.style.boxShadow = '0 0 ' + (size * 2) + 'px ' + p.style.background;
+        p.style.animationDuration = (Math.random() * 2 + 1.5) + 's';
+        document.body.appendChild(p);
+        setTimeout(function(el) { el.remove(); }, 4000, p);
+      }
+      count++;
+      if (count > 60) clearInterval(interval);
+    }, 80);
+  }
+})();
+</script>
