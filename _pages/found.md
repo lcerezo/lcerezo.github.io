@@ -2,6 +2,11 @@
 title: "YOU FOUND MY THING!"
 permalink: /found/
 layout: null
+redirect_from:
+  - /Found/
+  - /FOUND/
+  - /Found
+  - /FOUND
 ---
 
 <html lang="en">
