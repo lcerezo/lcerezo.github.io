@@ -89,14 +89,6 @@
         </li>
       {% endif %}
 
-      {% if author.google_plus %}
-        <li>
-          <a href="https://plus.google.com/{{ author.google_plus }}" itemprop="sameAs">
-            <i class="fab fa-fw fa-google-plus-square" aria-hidden="true"></i> Google+
-          </a>
-        </li>
-      {% endif %}
-
       {% if author.linkedin %}
         <li>
           <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs">
@@ -245,14 +237,6 @@
         <li>
           <a href="https://codepen.io/{{ author.codepen }}" itemprop="sameAs">
             <i class="fab fa-fw fa-codepen" aria-hidden="true"></i> CodePen
-          </a>
-        </li>
-      {% endif %}
-
-      {% if author.vine %}
-        <li>
-          <a href="https://vine.co/u/{{ author.vine }}" itemprop="sameAs">
-            <i class="fab fa-fw fa-vine" aria-hidden="true"></i> Vine
           </a>
         </li>
       {% endif %}

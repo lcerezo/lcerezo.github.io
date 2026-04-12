@@ -1,0 +1,357 @@
+/* ==========================================================================
+   Dark mode (prefers-color-scheme)
+   Uses the same palette as the resume dark mode for consistency.
+   ========================================================================== */
+
+$dm-bg:          #0f172a;
+$dm-surface:     #1e293b;
+$dm-text:        #e2e8f0;
+$dm-heading:     #f1f5f9;
+$dm-muted:       #94a3b8;
+$dm-border:      #334155;
+$dm-link:        #60a5fa;
+$dm-link-hover:  #93c5fd;
+$dm-link-visited:#818cf8;
+$dm-code-bg:     #1e293b;
+$dm-footer-bg:   #0c1222;
+
+@media (prefers-color-scheme: dark) {
+
+  // Base
+  html {
+    background-color: $dm-bg;
+  }
+
+  body {
+    background-color: $dm-bg;
+    color: $dm-text;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $dm-heading;
+  }
+
+  a {
+    color: $dm-link;
+
+    &:visited {
+      color: $dm-link-visited;
+    }
+
+    &:hover,
+    &:active {
+      color: $dm-link-hover;
+    }
+  }
+
+  blockquote {
+    border-left-color: $dm-link;
+  }
+
+  hr {
+    border-top-color: $dm-border;
+  }
+
+  u, ins {
+    border-bottom-color: $dm-text;
+  }
+
+  abbr[title],
+  abbr[data-original-title] {
+    border-bottom-color: $dm-text;
+  }
+
+  p > code,
+  a > code,
+  li > code,
+  figcaption > code,
+  td > code {
+    background: $dm-code-bg;
+  }
+
+  figcaption {
+    color: $dm-muted;
+  }
+
+  ::selection {
+    background: rgba($dm-link, 0.4);
+    color: #fff;
+  }
+
+  // Masthead
+  .masthead {
+    background-color: $dm-bg;
+    border-bottom-color: $dm-border;
+  }
+
+  .greedy-nav {
+    background: $dm-bg;
+
+    a {
+      color: $dm-text;
+
+      &:hover {
+        color: $dm-link;
+      }
+    }
+
+    .visible-links a:before {
+      background: $dm-link;
+    }
+
+    .hidden-links {
+      background: $dm-surface;
+      border-color: $dm-border;
+      box-shadow: 0 2px 4px 0 rgba(#000, 0.3), 0 2px 10px 0 rgba(#000, 0.2);
+
+      a:hover {
+        color: $dm-link;
+        background: mix($dm-bg, $dm-surface, 50%);
+      }
+
+      &:before {
+        border-color: $dm-border transparent;
+      }
+
+      &:after {
+        border-color: $dm-surface transparent;
+      }
+
+      li {
+        border-bottom-color: $dm-border;
+      }
+    }
+  }
+
+  .search__toggle {
+    color: $dm-muted;
+
+    &:hover {
+      color: $dm-text;
+    }
+  }
+
+  // Search
+  .search-content {
+    .search-input {
+      color: $dm-text;
+    }
+  }
+
+  // Search content area
+  .search-content {
+    background-color: $dm-bg;
+  }
+
+  // Footer
+  .page__footer {
+    background-color: $dm-footer-bg;
+    color: $dm-muted;
+
+    a:hover {
+      color: $dm-link;
+    }
+  }
+
+  // Sidebar / Author profile
+  .sidebar {
+    .author__name {
+      color: $dm-heading;
+    }
+
+    .author__bio {
+      color: $dm-muted;
+    }
+  }
+
+  .author__avatar img {
+    border-color: $dm-border;
+  }
+
+  .author__urls {
+    background: $dm-surface;
+    border-color: $dm-border;
+    box-shadow: 0 2px 4px 0 rgba(#000, 0.3), 0 2px 10px 0 rgba(#000, 0.2);
+
+    &:before {
+      border-color: $dm-border transparent;
+    }
+
+    &:after {
+      border-color: $dm-surface transparent;
+    }
+
+    a {
+      color: $dm-text;
+
+      &:hover {
+        color: $dm-link;
+      }
+    }
+  }
+
+  .author__urls-wrapper button.btn--inverse {
+    background-color: $dm-surface;
+    color: $dm-text;
+    border-color: $dm-border;
+  }
+
+  // Page content
+  .page__content {
+    h2 {
+      border-bottom-color: $dm-border;
+    }
+
+    a:not(.btn) {
+      color: $dm-link;
+
+      &:visited {
+        color: $dm-link-visited;
+      }
+
+      &:hover {
+        color: $dm-link-hover;
+      }
+    }
+  }
+
+  .page__datepublished {
+    border-bottom-color: $dm-border;
+    color: $dm-muted;
+  }
+
+  .page__meta {
+    color: $dm-muted;
+  }
+
+  .page__share {
+    border-top-color: $dm-border;
+  }
+
+  .page__related {
+    border-top-color: $dm-border;
+
+    a {
+      color: $dm-text;
+    }
+  }
+
+  .page__comments-title {
+    border-top-color: $dm-border;
+  }
+
+  .comment:not(:last-child) {
+    border-bottom-color: $dm-border;
+  }
+
+  .comment__avatar {
+    border-color: $dm-border;
+  }
+
+  // Archives
+  .archive__subtitle {
+    color: $dm-muted;
+    border-bottom-color: $dm-border;
+  }
+
+  .archive__item-title a {
+    color: $dm-text;
+
+    &:hover {
+      color: $dm-link;
+    }
+  }
+
+  .archive__item-excerpt {
+    color: $dm-muted;
+  }
+
+  // Taxonomy
+  .page__taxonomy-item {
+    border-color: $dm-border;
+    color: $dm-text;
+
+    &:hover {
+      color: $dm-link;
+    }
+  }
+
+  // Pagination
+  .pagination li a {
+    color: $dm-muted;
+    border-color: $dm-border;
+
+    &:hover {
+      color: $dm-link-hover;
+    }
+
+    &.current,
+    &.current.disabled {
+      color: #fff;
+    }
+  }
+
+  .pagination--pager {
+    color: $dm-muted;
+    border-color: $dm-border;
+  }
+
+  .page__content + .pagination,
+  .page__meta + .pagination,
+  .page__share + .pagination,
+  .page__comments + .pagination {
+    border-top-color: $dm-border;
+  }
+
+  // Table of contents
+  .toc {
+    background-color: $dm-surface;
+    border-color: $dm-border;
+  }
+
+  .toc__menu a {
+    color: $dm-muted;
+    border-bottom-color: $dm-border;
+
+    &:hover {
+      color: $dm-text;
+    }
+  }
+
+  // Navigation
+  .nav__sub-title {
+    border-bottom-color: $dm-border;
+  }
+
+  .feature__wrapper {
+    border-bottom-color: $dm-border;
+  }
+
+  // Buttons
+  .btn--inverse {
+    background-color: $dm-surface;
+    color: $dm-text;
+    border-color: $dm-border;
+  }
+
+  // Forms
+  form {
+    background-color: $dm-surface;
+  }
+
+  input, textarea, select {
+    color: $dm-text;
+    background-color: $dm-bg;
+    border-color: $dm-border;
+  }
+
+  label {
+    color: $dm-text;
+  }
+
+  // Notices
+  .notice, .notice--primary, .notice--info,
+  .notice--warning, .notice--success, .notice--danger {
+    color: $dm-text;
+  }
+}

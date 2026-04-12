@@ -61,7 +61,7 @@ yandex_site_verification :
 naver_site_verification  :
 
 # SEO Plugin Configuration
-logo: /assets/images/avatar.jpg
+logo: /assets/images/lucho-on-fire.png
 social:
   name: Luis E. Cerezo
   links:
@@ -106,7 +106,7 @@ author:
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           : luiscerezo
+  flickr           : photos/luiscerezo
   facebook         :
   foursquare       :
   github           : lcerezo
