@@ -1,19 +1,22 @@
 
 <script type="text/javascript">
-    window.onload = function() {
+    window.addEventListener('load', function() {
     // Get the list element
     var list = document.getElementById("wordsalad");
-  
-    // Create a copy of the list items array
+
+    // Create a copy of the list items array and Fisher-Yates shuffle
     var listItems = Array.from(list.children);
-  
-    // Shuffle the list items array
-    listItems.sort(() => Math.random() - 0.5);  // Fisher-Yates shuffle
-  
+    for (var i = listItems.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var temp = listItems[i];
+      listItems[i] = listItems[j];
+      listItems[j] = temp;
+    }
+
     // Rearrange the list items in the DOM
     list.innerHTML = "";  // Clear the list
     listItems.forEach(item => list.appendChild(item));  // Append items in shuffled order
-  };
+  });
 
 </script>
 
@@ -21,8 +24,11 @@
 <style type="text/css"> 
 .li2 {
     list-style-type: none;
-    float:center;
     display: inline;
+}
+#wordsalad {
+    text-align: center;
+    padding-left: 0;
 }
 </style>
 

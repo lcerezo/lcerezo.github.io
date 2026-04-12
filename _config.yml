@@ -289,7 +289,7 @@ defaults:
         caption: a silly blog
 
 # Resume settings
-resume_avatar:                  "false"
+resume_avatar:                  "true"
 resume_name:                    "Luis E. Cerezo"
 resume_title:                   ""
 # used for the contact button in _layouts/resume.html

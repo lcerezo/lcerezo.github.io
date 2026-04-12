@@ -13,7 +13,7 @@
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}
-        <img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image">
+        <img src="/assets/images/lucho-on-fire.png" alt="my photo" class="avatar no-print" itemprop="image">
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->
@@ -37,6 +37,14 @@
 
         <div class="executive-summary" itemprop="description">
           {{ site.resume_header_intro }}
+        </div>
+
+        <div class="resume-search no-print">
+          <div class="resume-search-container">
+            <input type="text" class="resume-search-input" id="resume-search" placeholder="Search resume..." aria-label="Search resume">
+            <button class="resume-search-clear" id="resume-search-clear" aria-label="Clear search">&times;</button>
+            <span class="resume-search-count" id="resume-search-count"></span>
+          </div>
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
@@ -279,5 +287,134 @@
 
   <!-- Country-based popover -->
   <script src="/assets/js/country-popover.js"></script>
+
+  <!-- Resume search functionality -->
+  <script>
+  (function() {
+    const searchInput = document.getElementById('resume-search');
+    const clearBtn = document.getElementById('resume-search-clear');
+    const countDisplay = document.getElementById('resume-search-count');
+    const searchableContainer = document.querySelector('.wrapper');
+
+    // Elements to exclude from search (hidden sections, scripts, etc.)
+    const excludeSelectors = [
+      '.ai-recruiter-instructions',
+      'script',
+      'style',
+      '.resume-search',
+      '.no-print'
+    ];
+
+    let debounceTimer;
+
+    function escapeRegExp(string) {
+      return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+
+    function clearHighlights() {
+      const marks = searchableContainer.querySelectorAll('mark.search-highlight');
+      marks.forEach(mark => {
+        const parent = mark.parentNode;
+        parent.replaceChild(document.createTextNode(mark.textContent), mark);
+        parent.normalize();
+      });
+    }
+
+    function highlightText(node, regex) {
+      if (node.nodeType === Node.TEXT_NODE) {
+        const text = node.textContent;
+        const matches = text.match(regex);
+        if (matches) {
+          const fragment = document.createDocumentFragment();
+          let lastIndex = 0;
+          let match;
+          const globalRegex = new RegExp(regex.source, 'gi');
+
+          while ((match = globalRegex.exec(text)) !== null) {
+            if (match.index > lastIndex) {
+              fragment.appendChild(document.createTextNode(text.slice(lastIndex, match.index)));
+            }
+            const mark = document.createElement('mark');
+            mark.className = 'search-highlight';
+            mark.textContent = match[0];
+            fragment.appendChild(mark);
+            lastIndex = globalRegex.lastIndex;
+          }
+
+          if (lastIndex < text.length) {
+            fragment.appendChild(document.createTextNode(text.slice(lastIndex)));
+          }
+
+          node.parentNode.replaceChild(fragment, node);
+          return true;
+        }
+      } else if (node.nodeType === Node.ELEMENT_NODE) {
+        // Skip excluded elements
+        for (const selector of excludeSelectors) {
+          if (node.matches && node.matches(selector)) {
+            return false;
+          }
+        }
+        // Skip hidden elements
+        if (node.style.display === 'none' || node.getAttribute('aria-hidden') === 'true') {
+          return false;
+        }
+
+        const children = Array.from(node.childNodes);
+        children.forEach(child => highlightText(child, regex));
+      }
+      return false;
+    }
+
+    function performSearch(query) {
+      clearHighlights();
+
+      if (!query || query.length < 2) {
+        countDisplay.textContent = '';
+        clearBtn.classList.remove('visible');
+        return;
+      }
+
+      clearBtn.classList.add('visible');
+
+      const regex = new RegExp(escapeRegExp(query), 'gi');
+      highlightText(searchableContainer, regex);
+
+      const matches = searchableContainer.querySelectorAll('mark.search-highlight');
+      const count = matches.length;
+
+      if (count > 0) {
+        countDisplay.textContent = count + (count === 1 ? ' match' : ' matches');
+        // Scroll to first match
+        matches[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
+        matches[0].classList.add('search-highlight-current');
+      } else {
+        countDisplay.textContent = 'No matches';
+      }
+    }
+
+    searchInput.addEventListener('input', function() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(() => {
+        performSearch(this.value.trim());
+      }, 200);
+    });
+
+    clearBtn.addEventListener('click', function() {
+      searchInput.value = '';
+      clearHighlights();
+      countDisplay.textContent = '';
+      clearBtn.classList.remove('visible');
+      searchInput.focus();
+    });
+
+    // Handle Escape key to clear search
+    searchInput.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        clearBtn.click();
+      }
+    });
+  })();
+  </script>
 
   </html>
