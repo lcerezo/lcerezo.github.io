@@ -32,7 +32,7 @@ Here is a simulation of my normal day.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rQ_agtEFI5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-There are links at the bottom for the normal social media things. .
+There are links at the bottom for the normal social media things.
 ## Contact me
 You can contact me using my [GPG key](/gpgpub.txt) 
 
@@ -42,6 +42,8 @@ Or by plain old email (base64 encoded) `bHVpcyBET1QgY2VyZXpvIEFUIGdtYWlsIERPVCBj
 # Not me (Tocayos)
 People I share a name with, but who are not me.
 
-Luis Cerezo PHD, [Professor of Linguinstics](https://www.linkedin.com/in/luiscerezophd/)  
+Luis Cerezo PHD, [Professor of Linguistics](https://www.linkedin.com/in/luiscerezophd/)  
 Luis Cerezo, [Author and Artist](https://www.linkedin.com/in/lcerezo/)  
-Luis Cerezo, [Director en Banco G&T Continental](https://www.linkedin.com/in/luis-roberto-cerezo-316b75133/)
+Luis Cerezo, [Director en Banco G&T Continental](https://www.linkedin.com/in/luis-roberto-cerezo-316b75133/)  
+Luis Cerezo, [Global Sales & Operations Leader, Munich](https://www.linkedin.com/in/luiscerezolara/)  
+Luis Cerezo, [Experto en formación profesional, Madrid](https://www.linkedin.com/in/lucemapers/)
