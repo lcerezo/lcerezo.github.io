@@ -3,17 +3,18 @@
    Uses the same palette as the resume dark mode for consistency.
    ========================================================================== */
 
-$dm-bg:          #0f172a;
-$dm-surface:     #1e293b;
-$dm-text:        #e2e8f0;
-$dm-heading:     #f1f5f9;
-$dm-muted:       #94a3b8;
-$dm-border:      #334155;
-$dm-link:        #60a5fa;
-$dm-link-hover:  #93c5fd;
-$dm-link-visited:#818cf8;
-$dm-code-bg:     #1e293b;
-$dm-footer-bg:   #0c1222;
+// Darkroom palette — matches /gallery/ and the masthead (assets/css/darkroom.css)
+$dm-bg:          #0e0e11;
+$dm-surface:     #16161b;
+$dm-text:        #e8e6e1;
+$dm-heading:     #f0eee9;
+$dm-muted:       #8f8c85;
+$dm-border:      #2b2b33;
+$dm-link:        #c9a86a;
+$dm-link-hover:  #ddc189;
+$dm-link-visited:#b3945c;
+$dm-code-bg:     #16161b;
+$dm-footer-bg:   #0e0e11;
 
 @media (prefers-color-scheme: dark) {
 

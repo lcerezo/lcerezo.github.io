@@ -1,0 +1,51 @@
+/* ==========================================================================
+   Darkroom skin — matches the /gallery/ dark-room treatment
+   (see assets/css/gallery.css: bg #0e0e11, fg #e8e6e1, accent #c9a86a)
+   ========================================================================== */
+
+/* Colors */
+$background-color: #0e0e11 !default;
+$text-color: #e8e6e1 !default;
+$muted-text-color: #8f8c85 !default;
+$primary-color: #c9a86a !default;
+$border-color: mix(#fff, $background-color, 10%) !default;
+$code-background-color: #16161b !default;
+$code-background-color-dark: #121217 !default;
+$form-background-color: #16161b !default;
+$footer-background-color: $background-color !default;
+$link-color: #c9a86a !default;
+$link-color-hover: mix(#fff, $link-color, 30%) !default;
+$link-color-visited: mix(#000, $link-color, 15%) !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: $primary-color !default;
+$navicon-link-color-hover: mix(#fff, $background-color, 10%) !default;
+
+/* dark syntax highlighting (base16) */
+$base00: #16161b !default;
+$base01: #1e1e24 !default;
+$base02: #2b2b33 !default;
+$base03: #8f8c85 !default;
+$base04: #a5a29a !default;
+$base05: #e8e6e1 !default;
+$base06: #f0eee9 !default;
+$base07: #ffffff !default;
+$base08: #d95f5f !default;
+$base09: #c9a86a !default;
+$base0a: #d6b878 !default;
+$base0b: #8aa86a !default;
+$base0c: #6aa8a0 !default;
+$base0d: #7d9bc0 !default;
+$base0e: #a08ac0 !default;
+$base0f: #c08a6a !default;
+
+.author__urls.social-icons i,
+.author__urls.social-icons .svg-inline--fa,
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa {
+  color: inherit;
+}
+
+.ais-search-box .ais-search-box--input,
+.searchbox .searchbox__input {
+  background-color: $form-background-color;
+}

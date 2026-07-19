@@ -5,14 +5,14 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # light body + dark masthead via assets/css/darkroom.css; custom "darkroom" skin available for full-dark
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Why did you come here?"
 title_separator          : ""
 name                     : "Luis E. Cerezo"
-description              : "Lifelong learner with strong opinions loosely held. Musings on cloud, reliability, technology, and random stuff that crosses my mind."
+description              : "Lifelong learner with strong opinions loosely held. Cloud, reliability, technology, and random stuff that crosses my mind."
 url                      : "https://www.luiscerezo.org" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : lcerezo/lcerezo.github.io
@@ -273,10 +273,6 @@ defaults:
       comments: # true
       share: true
       related: true
-      header:
-        overlay_image: /assets/images/fenway_ballpark_seats_bw.jpg
-        caption: a silly blog
-        show_overlay_excerpt: false
   - scope:
       path: ""
       type: pages
@@ -284,16 +280,13 @@ defaults:
       layout: splash
       read_time: true
       author_profile: true
-      header:
-        overlay_image: /assets/images/patch_panel_header.jpg
-        caption: a silly blog
 
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Luis E. Cerezo"
 resume_title:                   ""
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "Luis is the right candidate <hire@luiscerezo.org>?subject=Come work with us, Luis  "
+resume_contact_email:           "hire@luiscerezo.org?subject=Come%20work%20with%20us%2C%20Luis"
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:       ""
 resume_contact_address:         "Colorado and the world"

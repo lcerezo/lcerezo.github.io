@@ -1,0 +1,170 @@
+/* Light editorial theme with the gallery's dark masthead.
+   Body stays light (default skin); the masthead and footer take the
+   /gallery/ dark-room palette so the site and gallery read as one thing.
+   Loaded site-wide from _includes/head/custom.html. */
+
+:root {
+  --dr-dark: #0e0e11;
+  --dr-dark-fg: #e8e6e1;
+  --dr-muted: #6f6c66;
+  --dr-accent: #a07f3f; /* gallery gold, darkened for contrast on white */
+  --dr-accent-bright: #c9a86a;
+  --dr-hairline: rgba(0, 0, 0, 0.08);
+}
+
+/* ---- dark masthead, matching the gallery pages ---- */
+body .masthead {
+  background: var(--dr-dark);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.masthead .site-title,
+.masthead .greedy-nav .visible-links a,
+.masthead .greedy-nav a {
+  color: var(--dr-dark-fg);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+}
+
+body .masthead .greedy-nav {
+  background: var(--dr-dark);
+}
+
+.masthead .greedy-nav .visible-links a:hover,
+.masthead .greedy-nav .search__toggle:hover {
+  color: var(--dr-accent-bright);
+}
+
+.masthead .greedy-nav .search__toggle {
+  color: var(--dr-dark-fg);
+}
+
+.masthead .greedy-nav .visible-links a:before {
+  background: var(--dr-accent-bright);
+}
+
+/* hidden-links dropdown (narrow screens) needs dark treatment too */
+.masthead .greedy-nav .hidden-links {
+  background: var(--dr-dark);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.masthead .greedy-nav .hidden-links a {
+  color: var(--dr-dark-fg);
+}
+
+.masthead .greedy-nav .hidden-links:before {
+  border-color: transparent transparent rgba(255, 255, 255, 0.12) transparent;
+}
+
+/* ---- shared editorial type (same classes the gallery uses) ---- */
+.pg-kicker {
+  font-size: 0.72rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--dr-accent);
+  margin: 0 0 0.4rem;
+}
+
+.pg-heading {
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  margin: 0 0 0.5rem;
+}
+
+.pg-sub {
+  color: var(--dr-muted);
+  font-size: 0.95rem;
+  max-width: 44em;
+  margin: 0 0 2rem;
+}
+
+.pg-sub a { color: var(--dr-accent); text-decoration: none; }
+.pg-sub a:hover { text-decoration: underline; }
+
+.home-intro {
+  margin: 1.5rem 0 2.5rem;
+}
+
+/* ---- post list: quiet editorial rows ---- */
+.archive__subtitle {
+  font-size: 0.72rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--dr-accent);
+  border-bottom: 1px solid var(--dr-hairline);
+  padding-bottom: 0.6rem;
+}
+
+.list__item {
+  padding: 0.35rem 0;
+}
+
+.list__item .archive__item {
+  border-bottom: 1px solid var(--dr-hairline);
+  padding-bottom: 1.1rem;
+}
+
+.archive__item-title {
+  font-size: 1.15rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  margin-top: 0.4em;
+}
+
+.archive__item-title a {
+  color: #2f2f33;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.archive__item-title a:hover {
+  color: var(--dr-accent);
+  text-decoration: none;
+}
+
+.archive__item-excerpt {
+  color: var(--dr-muted);
+  font-size: 0.85rem;
+}
+
+.page__meta {
+  color: var(--dr-muted);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* ---- sidebar/author card ---- */
+.author__name { font-weight: 500; letter-spacing: 0.02em; }
+.author__bio, .author__urls a, .author__content p { color: var(--dr-muted); }
+.author__urls a:hover { color: var(--dr-accent); }
+
+/* ---- pagination ---- */
+.pagination--pager {
+  background: transparent;
+  border: 1px solid var(--dr-hairline);
+  color: var(--dr-muted);
+}
+
+.pagination--pager:hover {
+  background: #f6f5f2;
+  color: var(--dr-accent);
+}
+
+/* ---- dark footer bookending the dark masthead ---- */
+body .page__footer {
+  background: var(--dr-dark);
+  color: var(--dr-dark-fg);
+  margin-top: 3rem;
+}
+
+.page__footer footer,
+.page__footer a {
+  color: #9a978f;
+}
+
+.page__footer a:hover {
+  color: var(--dr-accent-bright);
+}
