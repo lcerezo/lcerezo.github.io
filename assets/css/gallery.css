@@ -1,0 +1,277 @@
+/* Photo gallery — dark room treatment.
+   Index of album covers → per-album masonry grid (hash-routed) → lightbox.
+   The .layout--gallery-dark class (set by _layouts/gallery.html) darkens
+   the whole page so the photos are the only bright thing in the room. */
+
+:root {
+  --pg-bg: #0e0e11;
+  --pg-surface: #16161b;
+  --pg-fg: #e8e6e1;
+  --pg-muted: #8f8c85;
+  --pg-accent: #c9a86a;
+  --pg-gap: 14px;
+}
+
+/* ---- dark room: override the theme's chrome on gallery pages ---- */
+/* the theme paints html white; cover it too or it bleeds through */
+html:has(body.layout--gallery-dark) {
+  background: var(--pg-bg);
+}
+
+body.layout--gallery-dark {
+  background: var(--pg-bg);
+  color: var(--pg-fg);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body.layout--gallery-dark .initial-content {
+  flex: 1 0 auto;
+}
+
+body.layout--gallery-dark .masthead {
+  background: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+body.layout--gallery-dark .masthead a,
+body.layout--gallery-dark .greedy-nav a,
+body.layout--gallery-dark .site-title {
+  color: var(--pg-fg);
+}
+
+body.layout--gallery-dark .greedy-nav {
+  background: transparent;
+}
+
+body.layout--gallery-dark .page__footer {
+  background: var(--pg-bg);
+  color: var(--pg-muted);
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+body.layout--gallery-dark .page__footer footer,
+body.layout--gallery-dark .page__footer a {
+  color: var(--pg-muted);
+}
+
+.gallery-main {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+}
+
+/* ---- shared type ---- */
+.pg-kicker {
+  font-size: 0.72rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--pg-accent);
+  margin: 0 0 0.4rem;
+}
+
+.pg-heading {
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  color: var(--pg-fg);
+  margin: 0 0 0.5rem;
+}
+
+.pg-sub {
+  color: var(--pg-muted);
+  font-size: 0.95rem;
+  max-width: 44em;
+  margin: 0 0 2.5rem;
+}
+
+.pg-sub a { color: var(--pg-accent); text-decoration: none; }
+.pg-sub a:hover { text-decoration: underline; }
+
+.photo-gallery,
+.photo-gallery * {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+/* ---- album index: large cinematic cover tiles ---- */
+.pg-index {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: calc(var(--pg-gap) * 1.5);
+}
+
+.pg-cover {
+  position: relative;
+  aspect-ratio: 3 / 2;
+  border-radius: 6px;
+  overflow: hidden;
+  background: var(--pg-surface);
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.pg-cover.pg-loaded { opacity: 1; transform: none; }
+
+.pg-cover canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  transition: transform 0.8s cubic-bezier(0.2, 0.6, 0.2, 1), filter 0.8s ease;
+  filter: saturate(0.88) brightness(0.92);
+}
+
+.pg-cover:hover canvas,
+.pg-cover:focus-visible canvas {
+  transform: scale(1.04);
+  filter: saturate(1) brightness(1);
+}
+
+.pg-cover .pg-cover-meta {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 1.5rem 1.2rem 0.85rem;
+  background: linear-gradient(transparent, rgba(5, 5, 8, 0.78));
+  pointer-events: none;
+}
+
+.pg-cover .pg-cover-title {
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin: 0;
+}
+
+.pg-cover .pg-cover-sub {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  margin: 0.2rem 0 0;
+}
+
+/* ---- album view ---- */
+.pg-back {
+  display: inline-block;
+  color: var(--pg-muted);
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 1.75rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.pg-back:hover { color: var(--pg-accent); }
+
+.pg-grid {
+  columns: 3 300px;
+  column-gap: var(--pg-gap);
+}
+
+.pg-item {
+  position: relative;
+  break-inside: avoid;
+  margin-bottom: var(--pg-gap);
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--pg-surface);
+  cursor: zoom-in;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.pg-item.pg-loaded { opacity: 1; transform: none; }
+
+.pg-item canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+}
+
+/* transparent shield: right-click / long-press grabs nothing */
+.pg-shield { position: absolute; inset: 0; background: transparent; }
+
+.pg-item figcaption {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 1.4rem 0.8rem 0.55rem;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.65));
+  color: var(--pg-fg);
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  pointer-events: none;
+}
+
+.pg-item:hover figcaption,
+.pg-item:focus-visible figcaption { opacity: 1; }
+
+/* ---- lightbox ---- */
+.pg-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(5, 5, 8, 0.97);
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.pg-lightbox.pg-open { display: flex; }
+
+.pg-lightbox canvas {
+  max-width: 92vw;
+  max-height: 84vh;
+  pointer-events: none;
+  box-shadow: 0 12px 60px rgba(0, 0, 0, 0.8);
+}
+
+.pg-lightbox .pg-lb-caption {
+  color: #cfccc4;
+  font-size: 0.9rem;
+  margin-top: 0.9rem;
+  letter-spacing: 0.05em;
+}
+
+.pg-lightbox button {
+  position: absolute;
+  background: none;
+  border: none;
+  color: #9a978f;
+  font-size: 2.2rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 1rem;
+  transition: color 0.2s ease;
+}
+
+.pg-lightbox button:hover { color: #fff; }
+.pg-lightbox .pg-lb-close { top: 0.5rem; right: 0.75rem; }
+.pg-lightbox .pg-lb-prev { left: 0.5rem; top: 50%; transform: translateY(-50%); }
+.pg-lightbox .pg-lb-next { right: 0.5rem; top: 50%; transform: translateY(-50%); }
+
+@media (max-width: 600px) {
+  .pg-index { grid-template-columns: 1fr; }
+  .gallery-main { padding-top: 1.5rem; }
+}
+
+@media print {
+  .photo-gallery, .pg-lightbox { display: none !important; }
+}

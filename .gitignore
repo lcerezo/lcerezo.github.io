@@ -11,3 +11,8 @@ vendor
 assets/js/vendor
 .amazonq/
 .claude
+# terraform / opentofu
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+terraform.tfvars

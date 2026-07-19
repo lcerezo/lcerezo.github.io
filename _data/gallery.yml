@@ -1,0 +1,387 @@
+# Photo gallery data. The page at /gallery/ renders from this file.
+#
+# cdn_base: the CloudFront domain (terraform output cdn_domain in
+#   luiscerezo.org-infra/photo-gallery). Paths are relative to the CDN root,
+#   which maps to the bucket's public/ prefix.
+#
+# watermark: site-wide default; each photo can override with its own
+#   `watermark: true/false`. Drawn client-side on the canvas — use
+#   prepare_photos.sh --bake-watermark for a permanent one.
+
+cdn_base: "https://dlt23dunpqfwk.cloudfront.net"
+watermark: false
+watermark_text: "© Luis E. Cerezo"
+
+albums:
+  - title: "Cotswolds Way, 2019"
+    slug: cotswolds-2019
+    description: "A week walking the Cotswolds Way, August 2019."
+    cover: "cotswolds-2019/img_20190820_102534.jpg"
+    # keep the gate sign (lower middle of the frame) clear of the title band
+    cover_position: "center 30%"
+    photos:
+      - file: "cotswolds-2019/img_20190819_175252.jpg"
+        title: "Aug 19, 17:52"
+        alt: "Photo from the Cotswolds Way, August 19, 2019"
+        lat: 51.905408
+        lon: -2.074911
+      - file: "cotswolds-2019/img_20190820_094716.jpg"
+        title: "Aug 20, 9:47"
+        alt: "Photo from the Cotswolds Way, August 20, 2019"
+        lat: 51.909831
+        lon: -2.068586
+      - file: "cotswolds-2019/img_20190820_101656.jpg"
+        title: "Aug 20, 10:16"
+        alt: "Photo from the Cotswolds Way, August 20, 2019"
+        lat: 51.918739
+        lon: -2.051903
+      - file: "cotswolds-2019/img_20190820_102534.jpg"
+        title: "Aug 20, 10:25"
+        alt: "Photo from the Cotswolds Way, August 20, 2019"
+        lat: 51.919008
+        lon: -2.0488
+      - file: "cotswolds-2019/img_20190820_105641.jpg"
+        title: "Aug 20, 10:56"
+        alt: "Photo from the Cotswolds Way, August 20, 2019"
+        lat: 51.922161
+        lon: -2.030358
+      - file: "cotswolds-2019/img_20190820_112126.jpg"
+        title: "Aug 20, 11:21"
+        alt: "Photo from the Cotswolds Way, August 20, 2019"
+        lat: 51.923236
+        lon: -2.018889
+      - file: "cotswolds-2019/img_20190820_112158.jpg"
+        title: "Aug 20, 11:21"
+        alt: "Photo from the Cotswolds Way, August 20, 2019"
+        lat: 51.923092
+        lon: -2.0186
+      - file: "cotswolds-2019/img_20190820_121340.jpg"
+        title: "Aug 20, 12:13"
+        alt: "Photo from the Cotswolds Way, August 20, 2019"
+        lat: 51.920617
+        lon: -1.998469
+      - file: "cotswolds-2019/img_20190820_123346.jpg"
+        title: "Aug 20, 12:33"
+        alt: "Photo from the Cotswolds Way, August 20, 2019"
+      - file: "cotswolds-2019/img_20190820_132035.jpg"
+        title: "Aug 20, 13:20"
+        alt: "Photo from the Cotswolds Way, August 20, 2019"
+        lat: 51.926192
+        lon: -1.980408
+      - file: "cotswolds-2019/00100sportrait_00100_burst20190820135134712_cover.jpg"
+        title: "Aug 20, 13:51"
+        alt: "Photo from the Cotswolds Way, August 20, 2019"
+        lat: 51.927683
+        lon: -1.971016
+      - file: "cotswolds-2019/img_20190820_143549.jpg"
+        title: "Aug 20, 14:35"
+        alt: "Photo from the Cotswolds Way, August 20, 2019"
+        lat: 51.936369
+        lon: -1.963556
+      - file: "cotswolds-2019/img_20190820_152911.jpg"
+        title: "Aug 20, 15:29"
+        alt: "Photo from the Cotswolds Way, August 20, 2019"
+        lat: 51.952678
+        lon: -1.965497
+      - file: "cotswolds-2019/img_20190821_090405.jpg"
+        title: "Aug 21, 9:04"
+        alt: "Photo from the Cotswolds Way, August 21, 2019"
+        lat: 51.953764
+        lon: -1.961406
+      - file: "cotswolds-2019/img_20190821_093610.jpg"
+        title: "Aug 21, 9:36"
+        alt: "Photo from the Cotswolds Way, August 21, 2019"
+        lat: 51.961956
+        lon: -1.947564
+      - file: "cotswolds-2019/img_20190821_095246.jpg"
+        title: "Aug 21, 9:52"
+        alt: "Photo from the Cotswolds Way, August 21, 2019"
+        lat: 51.966075
+        lon: -1.939256
+      - file: "cotswolds-2019/img_20190821_101935.jpg"
+        title: "Aug 21, 10:19"
+        alt: "Photo from the Cotswolds Way, August 21, 2019"
+      - file: "cotswolds-2019/img_20190821_113908.jpg"
+        title: "Aug 21, 11:39"
+        alt: "Photo from the Cotswolds Way, August 21, 2019"
+      - file: "cotswolds-2019/img_20190821_114100.jpg"
+        title: "Aug 21, 11:41"
+        alt: "Photo from the Cotswolds Way, August 21, 2019"
+      - file: "cotswolds-2019/img_20190821_120550.jpg"
+        title: "Aug 21, 12:05"
+        alt: "Photo from the Cotswolds Way, August 21, 2019"
+        lat: 51.987578
+        lon: -1.910167
+      - file: "cotswolds-2019/img_20190821_131143.jpg"
+        title: "Aug 21, 13:11"
+        alt: "Photo from the Cotswolds Way, August 21, 2019"
+        lat: 52.006458
+        lon: -1.897119
+      - file: "cotswolds-2019/img_20190821_142930.jpg"
+        title: "Aug 21, 14:29"
+        alt: "Photo from the Cotswolds Way, August 21, 2019"
+      - file: "cotswolds-2019/img_20190821_143111.jpg"
+        title: "Aug 21, 14:31"
+        alt: "Photo from the Cotswolds Way, August 21, 2019"
+        lat: 52.014878
+        lon: -1.890708
+      - file: "cotswolds-2019/img_20190821_143242.jpg"
+        title: "Aug 21, 14:32"
+        alt: "Photo from the Cotswolds Way, August 21, 2019"
+        lat: 52.015317
+        lon: -1.890678
+      - file: "cotswolds-2019/img_20190821_143356.jpg"
+        title: "Aug 21, 14:33"
+        alt: "Photo from the Cotswolds Way, August 21, 2019"
+        lat: 52.015519
+        lon: -1.89065
+      - file: "cotswolds-2019/img_20190821_143622.jpg"
+        title: "Aug 21, 14:36"
+        alt: "Photo from the Cotswolds Way, August 21, 2019"
+        lat: 52.015472
+        lon: -1.890689
+      - file: "cotswolds-2019/img_20190821_145628.jpg"
+        title: "Aug 21, 14:56"
+        alt: "Photo from the Cotswolds Way, August 21, 2019"
+        lat: 52.020411
+        lon: -1.886086
+      - file: "cotswolds-2019/img_20190821_145632.jpg"
+        title: "Aug 21, 14:56"
+        alt: "Photo from the Cotswolds Way, August 21, 2019"
+        lat: 52.020583
+        lon: -1.883328
+      - file: "cotswolds-2019/00100lportrait_00100_burst20190821151651196_cover.jpg"
+        title: "Aug 21, 15:16"
+        alt: "Photo from the Cotswolds Way, August 21, 2019"
+        lat: 52.022492
+        lon: -1.877955
+      - file: "cotswolds-2019/img_20190821_152625.jpg"
+        title: "Aug 21, 15:26"
+        alt: "Photo from the Cotswolds Way, August 21, 2019"
+        lat: 52.024311
+        lon: -1.874025
+      - file: "cotswolds-2019/img_20190821_152634.jpg"
+        title: "Aug 21, 15:26"
+        alt: "Photo from the Cotswolds Way, August 21, 2019"
+        lat: 52.024014
+        lon: -1.8733
+      - file: "cotswolds-2019/img_20190821_155229.jpg"
+        title: "Aug 21, 15:52"
+        alt: "Photo from the Cotswolds Way, August 21, 2019"
+      - file: "cotswolds-2019/img_20190821_155408.jpg"
+        title: "Aug 21, 15:54"
+        alt: "Photo from the Cotswolds Way, August 21, 2019"
+        lat: 52.032564
+        lon: -1.868447
+      - file: "cotswolds-2019/img_20190821_161634.jpg"
+        title: "Aug 21, 16:16"
+        alt: "Photo from the Cotswolds Way, August 21, 2019"
+        lat: 52.037439
+        lon: -1.856192
+      - file: "cotswolds-2019/img_20190821_190655.jpg"
+        title: "Aug 21, 19:06"
+        alt: "Photo from the Cotswolds Way, August 21, 2019"
+        lat: 52.036253
+        lon: -1.857767
+      - file: "cotswolds-2019/img_20190822_094014.jpg"
+        title: "Aug 22, 9:40"
+        alt: "Photo from the Cotswolds Way, August 22, 2019"
+        lat: 52.036675
+        lon: -1.852775
+      - file: "cotswolds-2019/img_20190822_095010.jpg"
+        title: "Aug 22, 9:50"
+        alt: "Photo from the Cotswolds Way, August 22, 2019"
+        lat: 52.033136
+        lon: -1.851731
+      - file: "cotswolds-2019/img_20190822_095109.jpg"
+        title: "Aug 22, 9:51"
+        alt: "Photo from the Cotswolds Way, August 22, 2019"
+        lat: 52.033136
+        lon: -1.851731
+      - file: "cotswolds-2019/img_20190822_101107.jpg"
+        title: "Aug 22, 10:11"
+        alt: "Photo from the Cotswolds Way, August 22, 2019"
+        lat: 52.029225
+        lon: -1.845011
+      - file: "cotswolds-2019/img_20190822_102036.jpg"
+        title: "Aug 22, 10:20"
+        alt: "Photo from the Cotswolds Way, August 22, 2019"
+      - file: "cotswolds-2019/img_20190822_112823.jpg"
+        title: "Aug 22, 11:28"
+        alt: "Photo from the Cotswolds Way, August 22, 2019"
+        lat: 52.023653
+        lon: -1.835697
+      - file: "cotswolds-2019/img_20190822_113606.jpg"
+        title: "Aug 22, 11:36"
+        alt: "Photo from the Cotswolds Way, August 22, 2019"
+      - file: "cotswolds-2019/img_20190822_113922.jpg"
+        title: "Aug 22, 11:39"
+        alt: "Photo from the Cotswolds Way, August 22, 2019"
+        lat: 52.027658
+        lon: -1.833597
+      - file: "cotswolds-2019/img_20190822_113933.jpg"
+        title: "Aug 22, 11:39"
+        alt: "Photo from the Cotswolds Way, August 22, 2019"
+        lat: 52.027658
+        lon: -1.833597
+      - file: "cotswolds-2019/img_20190822_121219.jpg"
+        title: "Aug 22, 12:12"
+        alt: "Photo from the Cotswolds Way, August 22, 2019"
+        lat: 52.032769
+        lon: -1.826081
+      - file: "cotswolds-2019/img_20190822_121848.jpg"
+        title: "Aug 22, 12:18"
+        alt: "Photo from the Cotswolds Way, August 22, 2019"
+      - file: "cotswolds-2019/img_20190822_130008.jpg"
+        title: "Aug 22, 13:00"
+        alt: "Photo from the Cotswolds Way, August 22, 2019"
+        lat: 52.150272
+        lon: -1.856933
+      - file: "cotswolds-2019/00100lportrait_00100_burst20190822192357740_cover.jpg"
+        title: "Aug 22, 19:23"
+        alt: "Photo from the Cotswolds Way, August 22, 2019"
+        lat: 52.050295
+        lon: -1.781284
+      - file: "cotswolds-2019/img_20190822_202358.jpg"
+        title: "Aug 22, 20:23"
+        alt: "Photo from the Cotswolds Way, August 22, 2019"
+        lat: 52.050044
+        lon: -1.780972
+      - file: "cotswolds-2019/img_20190823_081505.jpg"
+        title: "Aug 23, 8:15"
+        alt: "Photo from the Cotswolds Way, August 23, 2019"
+        lat: 52.050594
+        lon: -1.780478
+      - file: "cotswolds-2019/img_20190823_081515.jpg"
+        title: "Aug 23, 8:15"
+        alt: "Photo from the Cotswolds Way, August 23, 2019"
+        lat: 52.050594
+        lon: -1.780478
+      - file: "cotswolds-2019/img_20190823_093233.jpg"
+        title: "Aug 23, 9:32"
+        alt: "Photo from the Cotswolds Way, August 23, 2019"
+      - file: "cotswolds-2019/img_20190823_093416.jpg"
+        title: "Aug 23, 9:34"
+        alt: "Photo from the Cotswolds Way, August 23, 2019"
+      - file: "cotswolds-2019/img_20190823_093432.jpg"
+        title: "Aug 23, 9:34"
+        alt: "Photo from the Cotswolds Way, August 23, 2019"
+      - file: "cotswolds-2019/img_20190823_093655.jpg"
+        title: "Aug 23, 9:36"
+        alt: "Photo from the Cotswolds Way, August 23, 2019"
+        lat: 52.042122
+        lon: -1.771597
+      - file: "cotswolds-2019/img_20190823_094338.jpg"
+        title: "Aug 23, 9:43"
+        alt: "Photo from the Cotswolds Way, August 23, 2019"
+      - file: "cotswolds-2019/img_20190823_094714.jpg"
+        title: "Aug 23, 9:47"
+        alt: "Photo from the Cotswolds Way, August 23, 2019"
+      - file: "cotswolds-2019/img_20190823_094755.jpg"
+        title: "Aug 23, 9:47"
+        alt: "Photo from the Cotswolds Way, August 23, 2019"
+        lat: 52.039122
+        lon: -1.772581
+      - file: "cotswolds-2019/img_20190823_095017.jpg"
+        title: "Aug 23, 9:50"
+        alt: "Photo from the Cotswolds Way, August 23, 2019"
+        lat: 52.038097
+        lon: -1.773964
+      - file: "cotswolds-2019/img_20190823_100052.jpg"
+        title: "Aug 23, 10:00"
+        alt: "Photo from the Cotswolds Way, August 23, 2019"
+        lat: 52.035181
+        lon: -1.779453
+      - file: "cotswolds-2019/img_20190823_103841.jpg"
+        title: "Aug 23, 10:38"
+        alt: "Photo from the Cotswolds Way, August 23, 2019"
+      - file: "cotswolds-2019/img_20190823_110420.jpg"
+        title: "Aug 23, 11:04"
+        alt: "Photo from the Cotswolds Way, August 23, 2019"
+        lat: 52.017
+        lon: -1.764922
+      - file: "cotswolds-2019/img_20190823_110857.jpg"
+        title: "Aug 23, 11:08"
+        alt: "Photo from the Cotswolds Way, August 23, 2019"
+        lat: 52.017
+        lon: -1.764922
+      - file: "cotswolds-2019/img_20190823_111659.jpg"
+        title: "Aug 23, 11:16"
+        alt: "Photo from the Cotswolds Way, August 23, 2019"
+        lat: 52.011933
+        lon: -1.762544
+      - file: "cotswolds-2019/img_20190823_125238.jpg"
+        title: "Aug 23, 12:52"
+        alt: "Photo from the Cotswolds Way, August 23, 2019"
+        lat: 52.010567
+        lon: -1.760925
+      - file: "cotswolds-2019/img_20190823_125557.jpg"
+        title: "Aug 23, 12:55"
+        alt: "Photo from the Cotswolds Way, August 23, 2019"
+        lat: 52.005897
+        lon: -1.755569
+      - file: "cotswolds-2019/img_20190823_133213.jpg"
+        title: "Aug 23, 13:32"
+        alt: "Photo from the Cotswolds Way, August 23, 2019"
+        lat: 51.981294
+        lon: -1.708739
+      - file: "cotswolds-2019/img_20190823_133425.jpg"
+        title: "Aug 23, 13:34"
+        alt: "Photo from the Cotswolds Way, August 23, 2019"
+        lat: 51.996903
+        lon: -1.735206
+      - file: "cotswolds-2019/img_20190823_133441.jpg"
+        title: "Aug 23, 13:34"
+        alt: "Photo from the Cotswolds Way, August 23, 2019"
+      - file: "cotswolds-2019/img_20190823_133727.jpg"
+        title: "Aug 23, 13:37"
+        alt: "Photo from the Cotswolds Way, August 23, 2019"
+        lat: 51.996903
+        lon: -1.735206
+      - file: "cotswolds-2019/img_20190823_134303.jpg"
+        title: "Aug 23, 13:43"
+        alt: "Photo from the Cotswolds Way, August 23, 2019"
+        lat: 51.996903
+        lon: -1.735206
+      - file: "cotswolds-2019/img_20190823_141634.jpg"
+        title: "Aug 23, 14:16"
+        alt: "Photo from the Cotswolds Way, August 23, 2019"
+        lat: 51.990606
+        lon: -1.705994
+      - file: "cotswolds-2019/img_20190823_144546.jpg"
+        title: "Aug 23, 14:45"
+        alt: "Photo from the Cotswolds Way, August 23, 2019"
+      - file: "cotswolds-2019/img_20190825_100447.jpg"
+        title: "Aug 25, 10:04"
+        alt: "Photo from the Cotswolds Way, August 25, 2019"
+        lat: 51.4701
+        lon: -0.448517
+  - title: "Foxy"
+    slug: foxy
+    description: "Foxy, May 2012. Shot on the 5D Mark III."
+    cover: "foxy/9t3a4767.jpg"
+    photos:
+      - file: "foxy/9t3a4767.jpg"
+        title: "May 31, 19:33"
+        alt: "Photo from Foxy, May 31, 2012"
+      - file: "foxy/9t3a4768.jpg"
+        title: "May 31, 19:33"
+        alt: "Photo from Foxy, May 31, 2012"
+      - file: "foxy/9t3a4771.jpg"
+        title: "May 31, 19:35"
+        alt: "Photo from Foxy, May 31, 2012"
+      - file: "foxy/9t3a4773.jpg"
+        title: "May 31, 19:36"
+        alt: "Photo from Foxy, May 31, 2012"
+      - file: "foxy/9t3a4785.jpg"
+        title: "May 31, 19:38"
+        alt: "Photo from Foxy, May 31, 2012"
+      - file: "foxy/9t3a4794.jpg"
+        title: "May 31, 19:49"
+        alt: "Photo from Foxy, May 31, 2012"
+      - file: "foxy/9t3a4795.jpg"
+        title: "May 31, 19:49"
+        alt: "Photo from Foxy, May 31, 2012"
+      - file: "foxy/9t3a4799.jpg"
+        title: "May 31, 19:49"
+        alt: "Photo from Foxy, May 31, 2012"
