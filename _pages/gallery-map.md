@@ -24,7 +24,7 @@ where they're plotted. Click one. <a href="/gallery/">Back to the gallery</a>.
   "cdnBase": {{ site.data.gallery.cdn_base | jsonify }},
   "watermark": {{ site.data.gallery.watermark | jsonify }},
   "watermarkText": {{ site.data.gallery.watermark_text | jsonify }},
-  "albums": {{ site.data.gallery.albums | jsonify }}
+  "albums": {{ site.data.gallery.albums | where_exp: "a", "a.hidden != true" | jsonify }}
 }
 </script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"

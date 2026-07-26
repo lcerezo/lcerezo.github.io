@@ -1,6 +1,6 @@
 # Photo gallery — status & how to pick this back up
 
-_Last updated: 2026-07-19. Everything below is live except where marked TODO._
+_Last updated: 2026-07-26. Everything below is live except where marked TODO._
 
 ## What exists
 
@@ -23,9 +23,17 @@ _Last updated: 2026-07-19. Everything below is live except where marked TODO._
   no <img src>, shield overlay, contextmenu blocked).
 - `/gallery/map/` — Leaflet/OSM trip map; photo GPS → route polyline + clickable dots.
 - Data: `_data/gallery.yml`. Per album: title/slug/description/cover/
-  `cover_position` (CSS object-position for the cover crop)/photos.
+  `cover_position` (CSS object-position for the cover crop)/`hidden`/photos.
   Per photo: file/title/alt/optional caption/watermark/lat/lon.
-- Albums live: cotswolds-2019 (74 photos, 57 w/ GPS), foxy (8 photos, 2012, no GPS).
+- Albums live: longmont-cruise-2026 (14 photos, X100F, no GPS),
+  foxy (8 photos, 2012, no GPS).
+- `hidden: true` on an album drops it at build time — the Liquid in
+  `_pages/gallery.md` / `gallery-map.md` filters it before `jsonify`, so its
+  photo URLs never reach the HTML. Assets stay in S3/the CDN untouched.
+  Currently hidden: cotswolds-2019 (74 photos, 57 w/ GPS).
+- The `/gallery/map/` link on `/gallery/` only renders when some visible album
+  has GPS. Cotswolds was the only one, so the map is unlinked today (the page
+  still builds and is reachable directly).
 
 ## Publish checklist (when done tinkering)
 1. `git add` the gallery files (this file too if wanted) and push — GitHub Pages does the rest.
