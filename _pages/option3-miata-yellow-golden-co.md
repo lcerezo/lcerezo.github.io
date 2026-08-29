@@ -22,7 +22,6 @@ robots: noindex
 {% assign s = mm.subject %}
 {% assign retail = mm.retail %}
 {% assign r = retail.first %}
-{% assign gap = mm.subject.ask | minus: by_price.last.price %}
 
 <p class="mm-kicker">Comps packet · {{ mm.meta.updated | date: "%B %-d, %Y" }}</p>
 <h1 class="mm-heading">{{ s.year }} Mazda {{ s.model }} SE — ${% include mm-thousands.html n=s.ask %}</h1>
@@ -196,70 +195,6 @@ price to follow it.
 
 **Deep service records.** Same car, eleven dated line items, receipts in hand.
 It came second on price and still lost to its own previous sale.
-
-## What I'd do with this listing
-
-**Hold the number, but arm it.** cars.com's own market range supports low-to-mid
-teens, so ${% include mm-thousands.html n=s.ask %} does not need to come down on
-principle. What it needs is evidence, because the auction data gives any
-informed buyer a $10,100 club to swing. Right now the listing asserts low
-mileage and a limited edition; it should prove both.
-
-**Photograph the underside.** This is the single highest-leverage change. Four
-of the five auction comps disclosed corrosion on underbody components or brake
-hardware — at every price point, including the $10,100 winner. A genuinely clean
-underside is the one attribute in this whole data set that nobody has
-demonstrated and everybody would pay for. If this car has it, that is the
-premium, and it lives in about six photographs.
-
-**Fix the trim copy.** cars.com lists it as *LS*; the notes call it a limited
-edition and cite 1,500 built. Pick one story, and drop the production figure
-unless it can be sourced — the color and the six-speed already establish what it
-is, and an unverifiable number invites a buyer to doubt the rest.
-
-**Don't spend money getting it ready.** The clearest finding in the auction data:
-a full timing belt, water pump, shocks, brakes and fluids returned *negative
-$300* on resale. Fresh tires are worth doing if the date codes are old, since two
-comps were dinged for that. Beyond tires and a detail, mechanical spending will
-not come back.
-
-**Know the floor and the tool for it.** If the car has to move on a deadline, a
-no-reserve auction is what the data actually measures, and it lands high-$8,000s
-to low-$11,000s for a car like this — probably the top of that band on 65,000
-miles. All four no-reserve cars sold; the one reserve car went home. Below about
-$11,000, an auction is the better instrument than a private listing. Above it,
-patience is.
-
-**Expect the negotiation to land in the twelves.** The nearest live retail
-comparable is a $12,888 all-in Shinsen with more miles and one fewer gear, and
-cars.com calls that a *good deal* against its own band. A private six-speed with
-65,000 miles asking $15,000 and settling in the $12,000s would be consistent with
-everything on this page.
-
-## Why the two numbers disagree
-
-**Auction says ${% include mm-thousands.html n=by_price.first.price %}–${% include mm-thousands.html n=by_price.last.price %}.** Five recorded {{ mm.meta.source }} results,
-May 2024 through February 2026. Nothing cleared
-${% include mm-thousands.html n=by_price.last.price %}. Against that ceiling the
-ask is ${% include mm-thousands.html n=gap %} high.
-
-**Retail says low-to-mid teens.** A
-[{{ r.year }} {{ r.trim }}]({{ r.url }}) with {% include mm-thousands.html n=r.mileage %}
-miles — 10,000 more than the subject car, and a five-speed instead of a six — is
-listed at ${% include mm-thousands.html n=r.all_in %} all-in, and cars.com tags
-it a *{{ r.cars_badge }}* because its own market range for the vehicle is
-**${% include mm-thousands.html n=r.cars_range_low %}–${% include mm-thousands.html n=r.cars_range_high %}**.
-
-That second number is the one that matters to a retail buyer. Shopping cars.com,
-they are shown a market range that *starts* near $13,000 for a comparable
-special edition with worse specs. Set against that,
-${% include mm-thousands.html n=s.ask %} for a 65,000-mile six-speed is a normal
-ask — arguably a defensible one.
-
-The auction data still matters, for two reasons. It is what a *knowledgeable*
-buyer will quote back, and it is what the car brings if the seller ever needs it
-gone on a deadline. The gap between the two is the cost of patience: roughly
-$4,000, paid in months on market.
 
 ## Methodology
 
