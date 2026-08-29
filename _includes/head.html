@@ -2,6 +2,8 @@
 
 {% seo %}
 
+{% if page.robots %}<meta name="robots" content="{{ page.robots }}">{% endif %}
+
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | absolute_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
 <!-- http://t.co/dKP3o1e -->

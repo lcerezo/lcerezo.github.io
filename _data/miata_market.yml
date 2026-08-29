@@ -1,0 +1,188 @@
+# Miata market report — comparable sales
+#
+# Scope: NB2 (2001-2005) Mazda MX-5, tracked on Cars & Bids.
+# Add a comp by appending to `comps`. Fields:
+#   id          Cars & Bids auction slug (the short code in the URL)
+#   url         canonical auction URL (strip ?ss_id / ?ref tracking params)
+#   year, model, trim
+#   sold        true = hammer fell, false = reserve not met / bid to
+#   reserve     false when listed NO RESERVE
+#   price       final number in whole dollars, no commas or $
+#   date        auction end date, YYYY-MM-DD
+#   mileage     odometer at sale, whole miles
+#   transmission  "6MT", "5MT", "4AT"
+#   exterior, interior, location, vin
+#   seller      "Private" or "Dealer"
+#   bids, comments, photos
+#   notes       one line: what moved the price up or down
+#
+# Anything left blank renders as an em dash. Prices are hammer price and do
+# not include the Cars & Bids buyer fee.
+
+meta:
+  updated: 2026-08-29
+  scope: "NB2 (2001–2005) Mazda MX-5 Miata"
+  source: "Cars & Bids"
+  fee_note: "Prices shown are hammer price, before the buyer's fee."
+
+# The car this report was pulled for. Everything below is measured against it.
+subject:
+  year: 2002
+  model: MX-5 Miata
+  trim: Special Edition
+  trim_listed: LS
+  ask: 15000
+  mileage: 65000
+  transmission: 6MT
+  exterior: Blazing Yellow
+  interior: Black
+  vin: JM1NB353920226559
+  location: Front Range Colorado
+  seller: Private
+  url: https://www.cars.com/vehicledetail/1ac6a0ca-a513-49a3-9ddb-460f86c33da4/
+  listing_source: cars.com
+
+# Retail asking prices — a different market from the auction comps below.
+# `all_in` includes dealer fees where disclosed. `cars_range_*` is cars.com's
+# own algorithmic market range for that vehicle, captured with the listing.
+retail:
+  - label: 2003 MX-5 Miata Shinsen
+    url: https://www.cars.com/vehicledetail/b681815c-1d8c-4695-b5b0-9a98fff3590b/
+    year: 2003
+    trim: Shinsen
+    ask: 12393
+    fees: 495
+    all_in: 12888
+    mileage: 75132
+    transmission: 5MT
+    exterior: Titanium Grey Metallic
+    interior: Blue cloth
+    vin: JM1NB353330310717
+    seller: Dealer
+    source: cars.com
+    cars_badge: Great Deal
+    cars_range_low: 12962
+    cars_range_high: 14417
+    notes: >-
+      2003-only Shinsen package: Titanium Gray, dark blue top, blue cloth,
+      16-inch alloys, factory LSD. Five-speed, not a six. Flagged by cars.com as
+      below its own market range.
+
+comps:
+  - id: KP841BVK
+    url: https://carsandbids.com/auctions/KP841BVK/2002-mazda-mx-5-miata-special-edition
+    year: 2002
+    model: MX-5 Miata
+    trim: Special Edition
+    sold: true
+    reserve: false
+    price: 8600
+    date: 2026-02-24
+    mileage: 99900
+    transmission: 4AT
+    exterior: Blazing Yellow Mica
+    interior: Black
+    location: Seattle, WA
+    vin: JM1NB353820225905
+    seller: Dealer
+    bids: 34
+    comments: 49
+    photos: 173
+    notes: >-
+      The automatic. Same money as a bid-to six-speed with 40k fewer miles —
+      and it still needed 34 bids to get there. Mods may fail emissions in
+      some states; 2017 and 2014 tire date codes.
+
+  - id: KD1bZolM
+    url: https://carsandbids.com/auctions/KD1bZolM/2002-mazda-mx-5-miata-special-edition
+    year: 2002
+    model: MX-5 Miata
+    trim: Special Edition
+    sold: true
+    reserve: false
+    price: 9800
+    date: 2025-05-29
+    mileage: 109200
+    transmission: 6MT
+    exterior: Blazing Yellow Mica
+    interior: Black
+    location: Tempe, AZ
+    vin: JM1NB353220231148
+    seller: Private
+    bids: 25
+    comments: 35
+    photos: 194
+    notes: >-
+      The same car as the May 2024 sale below, one owner later. Timing belt,
+      water pump, shocks, brakes and a shifter rebuild in the interim — and it
+      still brought $300 less. Rear oil pan lip seal leaking.
+
+  - id: 3OPJkvla
+    url: https://carsandbids.com/auctions/3OPJkvla/2002-mazda-mx-5-miata-special-edition
+    year: 2002
+    model: MX-5 Miata
+    trim: Special Edition
+    sold: false
+    reserve: true
+    price: 8600
+    date: 2024-09-26
+    mileage: 60300
+    transmission: 6MT
+    exterior: Blazing Yellow Mica
+    interior: Black
+    location: Brooklyn, NY
+    vin: JM1NB353X20225582
+    seller: Dealer
+    bids: 19
+    comments: 14
+    photos: 127
+    notes: >-
+      Lowest miles of the group by 39k and it still didn't clear reserve.
+      Brooklyn dealer, doc fees, 2019 and 2009 tire date codes, corrosion on
+      underbody components.
+
+  - id: 36bgjGoP
+    url: https://carsandbids.com/auctions/36bgjGoP/2002-mazda-mx-5-miata
+    year: 2002
+    model: MX-5 Miata
+    trim: Base
+    sold: true
+    reserve: false
+    price: 6300
+    date: 2024-09-06
+    mileage: 124500
+    transmission: 5MT
+    exterior: Vivid Yellow
+    interior: Black/Yellow
+    location: Santa Clara, CA
+    vin: JM1NB353X20223413
+    seller: Private
+    bids: 12
+    comments: 33
+    photos: 80
+    notes: >-
+      The floor: base trim, five-speed, highest miles, torn soft top. Offset by
+      California-since-new ownership. Only 12 bids.
+
+  - id: KPQRAo7N
+    url: https://carsandbids.com/auctions/KPQRAo7N/2002-mazda-mx-5-miata-special-edition
+    year: 2002
+    model: MX-5 Miata
+    trim: Special Edition
+    sold: true
+    reserve: false
+    price: 10100
+    date: 2024-05-23
+    mileage: 107400
+    transmission: 6MT
+    exterior: Blazing Yellow Mica
+    interior: Black
+    location: Bryson, TX
+    vin: JM1NB353220231148
+    seller: Private
+    bids: 36
+    comments: 26
+    photos: 89
+    notes: >-
+      Top of the group. Removable hardtop included, unmodified, 36 bids. Same
+      VIN as the May 2025 sale above — this is the car's first pass.

@@ -1,0 +1,210 @@
+/* Miata market report — /miata-market/
+   Light page on the refreshed theme; no dark-room override here. */
+
+:root {
+  --mm-fg: #1f1f22;
+  --mm-muted: #6b6862;
+  --mm-rule: #e2ded6;
+  --mm-accent: #9c2b2b;
+  --mm-surface: #faf8f4;
+}
+
+.mm-kicker {
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mm-muted);
+  margin: 0 0 0.35em;
+}
+
+.mm-heading {
+  margin: 0 0 0.4em;
+  line-height: 1.1;
+}
+
+.mm-sub {
+  max-width: 46em;
+  color: var(--mm-muted);
+}
+
+/* ---- summary stats ---- */
+
+.mm-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1px;
+  background: var(--mm-rule);
+  border: 1px solid var(--mm-rule);
+  margin: 1.75em 0 2em;
+}
+
+.mm-stat {
+  background: var(--mm-surface);
+  padding: 0.9em 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+}
+
+.mm-stat-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--mm-muted);
+}
+
+.mm-stat-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--mm-fg);
+  font-variant-numeric: tabular-nums;
+}
+
+.mm-stat-unit {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--mm-muted);
+  margin-left: 0.4em;
+}
+
+/* ---- subject car card ---- */
+
+.mm-subject {
+  border: 1px solid var(--mm-rule);
+  border-left: 3px solid var(--mm-accent);
+  background: var(--mm-surface);
+  padding: 1em 1.2em 1.2em;
+  margin: 1.75em 0 2em;
+}
+
+.mm-subject-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mm-muted);
+  margin: 0 0 0.8em;
+}
+
+.mm-subject-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.9em 1.4em;
+  margin: 0;
+}
+
+.mm-subject-grid dt {
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--mm-muted);
+  margin: 0 0 0.15em;
+}
+
+.mm-subject-grid dd {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--mm-fg);
+  font-variant-numeric: tabular-nums;
+}
+
+.mm-subject-ask {
+  font-size: 1.35rem !important;
+  color: var(--mm-accent) !important;
+  line-height: 1.1;
+}
+
+.mm-vin {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.78rem !important;
+  font-weight: 400 !important;
+  letter-spacing: -0.01em;
+}
+
+/* ---- comps table ---- */
+
+.mm-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 1.5em;
+}
+
+.mm-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.mm-table th,
+.mm-table td {
+  padding: 0.7em 0.75em;
+  border-bottom: 1px solid var(--mm-rule);
+  text-align: left;
+  vertical-align: top;
+}
+
+.mm-table thead th {
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--mm-muted);
+  border-bottom: 2px solid var(--mm-fg);
+  white-space: nowrap;
+}
+
+.mm-table tbody tr:hover { background: var(--mm-surface); }
+
+.mm-table .mm-num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.mm-date { white-space: nowrap; color: var(--mm-muted); }
+
+.mm-loc,
+.mm-notes {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--mm-muted);
+}
+
+.mm-notes { margin-top: 0.2em; }
+
+.mm-tag {
+  display: inline-block;
+  margin-left: 0.45em;
+  padding: 0.1em 0.4em;
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--mm-muted);
+  border: 1px solid var(--mm-rule);
+  border-radius: 2px;
+  vertical-align: 0.1em;
+}
+
+.mm-price { font-weight: 700; }
+.mm-price--sold { color: var(--mm-fg); }
+.mm-price--nosale { color: var(--mm-muted); }
+
+.mm-flag {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--mm-accent);
+}
+
+.mm-footnote {
+  font-size: 0.85rem;
+  color: var(--mm-muted);
+  max-width: 46em;
+}
+
+@media (max-width: 600px) {
+  .mm-table { font-size: 0.8rem; }
+  .mm-table th,
+  .mm-table td { padding: 0.55em 0.5em; }
+}

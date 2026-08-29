@@ -1,0 +1,13 @@
+{%- comment -%}
+Renders an integer with comma thousands separators, for the Miata comps pages.
+Usage: {% include mm-thousands.html n=c.price %}
+Handles 0 through 999,999 — plenty for prices and odometers.
+{%- endcomment -%}
+{%- assign mm_n = include.n | plus: 0 -%}
+{%- if mm_n >= 1000 -%}
+  {%- assign mm_k = mm_n | divided_by: 1000 -%}
+  {%- assign mm_r = mm_n | modulo: 1000 | plus: 1000 | append: "" | slice: 1, 3 -%}
+  {{- mm_k }},{{ mm_r -}}
+{%- else -%}
+  {{- mm_n -}}
+{%- endif -%}
