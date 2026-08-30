@@ -45,14 +45,14 @@ robots: noindex
 
 ## The two markets side by side
 
-Every car on this page is a yellow special edition except the Shinsen, which is
-the Titanium Gray car — it is here because it is the only non-yellow
-special-edition NB2 currently on the retail market.
+All five auction comps are yellow. The two live retail cars are not — a
+Titanium Gray Shinsen and a blue LS — and they are here because they are what
+someone shopping for an NB2 right now can actually go and look at.
 
 <div class="mm-table-wrap">
 <table class="mm-table">
   <thead>
-    <tr><th>Market</th><th>What it measures</th><th>Color</th><th class="mm-num">2002–03 special-edition NB2</th></tr>
+    <tr><th>Market</th><th>What it measures</th><th>Color</th><th class="mm-num">2002–03 NB2</th></tr>
   </thead>
   <tbody>
     <tr>
@@ -61,18 +61,25 @@ special-edition NB2 currently on the retail market.
       <td>Yellow</td>
       <td class="mm-num">${% include mm-thousands.html n=by_price.first.price %} – ${% include mm-thousands.html n=by_price.last.price %}</td>
     </tr>
+    {%- if r.cars_range_low %}
     <tr>
       <td>cars.com market range</td>
       <td>Algorithmic retail band for the {{ r.year }} {{ r.trim }}</td>
       <td>{{ r.exterior }}</td>
       <td class="mm-num">${% include mm-thousands.html n=r.cars_range_low %} – ${% include mm-thousands.html n=r.cars_range_high %}</td>
     </tr>
+    {%- endif %}
+    {%- for x in retail %}
     <tr>
-      <td>Retail ask, dealer</td>
-      <td>{% include mm-thousands.html n=r.mileage %}-mile {{ r.trim }}, {{ r.transmission }}, all-in with fees</td>
-      <td>{{ r.exterior }}</td>
-      <td class="mm-num">${% include mm-thousands.html n=r.all_in %}</td>
+      <td>Retail ask, {{ x.seller | downcase }}</td>
+      <td>
+        {% include mm-thousands.html n=x.mileage %}-mile {{ x.trim }}, {{ x.transmission }}{% if x.all_in %}, all-in with fees{% endif %} ·
+        <a href="{{ x.url }}" rel="noopener nofollow">{{ x.source }}</a>
+      </td>
+      <td>{{ x.exterior }}</td>
+      <td class="mm-num">{% if x.all_in %}${% include mm-thousands.html n=x.all_in %}{% else %}${% include mm-thousands.html n=x.ask %}{% endif %}</td>
     </tr>
+    {%- endfor %}
     <tr>
       <td>This car</td>
       <td>{% include mm-thousands.html n=s.mileage %} miles, {{ s.transmission }}, private</td>
@@ -84,11 +91,13 @@ special-edition NB2 currently on the retail market.
 </div>
 
 <p class="mm-footnote">
-The Shinsen is a {{ r.year }}-only package — Titanium Gray, dark blue top, blue
-cloth, factory limited-slip — not the {{ s.year }} Special Edition. It is the
-closest non-yellow special-edition NB2 on the retail market, which is why it is
-here, but it is a five-speed. The subject car's six-speed is the more desirable
-gearbox.
+Neither retail car is a {{ s.year }} Special Edition. The Shinsen is a
+{{ r.year }}-only package — Titanium Gray, dark blue top, blue cloth, factory
+limited-slip — and it is a five-speed, so the subject car's six-speed is the
+better gearbox. The blue LS is a six-speed, and at
+{% include mm-thousands.html n=retail.last.mileage %} miles it is the closest
+car on this page to the subject car's odometer. Facebook publishes no market
+range and adds no fees, so its number is the seller's ask and nothing else.
 </p>
 
 ## Comparable sales — all yellow
@@ -161,6 +170,22 @@ why the subject car's 65,000 miles is an argument the comps can't settle: this
 data has no successful low-mileage sale in it at all. The mileage is a real
 asset and an unpriced one.
 
+**There is now a closer car on mileage, and it is asking $8,900.** A
+[62,000-mile blue LS six-speed](https://www.facebook.com/marketplace/item/1753622865787116/)
+went up on Facebook Marketplace in Divide, Colorado four days ago — 3,000 miles
+*under* the subject car, same gearbox, second owner, clean title, garaged. It
+is the nearest car on the odometer anywhere in this packet, and its ask sits
+$6,100 below the subject car's and inside the auction band rather than above
+it. Sort every car in this packet by odometer and the pattern is hard to miss:
+the two lowest-mileage cars are the Brooklyn no-sale at 60,300 miles and $8,600,
+and this one at 62,000 and $8,900 — $300 apart. The subject car is third at
+65,000 miles, asking $15,000. Two things keep that from being decisive. It is an ask,
+not a sale — nobody has paid it. And it is a blue LS, not a Blazing Yellow
+Special Edition, so part of that spread is trim and color that this data set
+cannot price, since every auction comp here is yellow. But if the subject car
+really is an LS, as cars.com has it, this is its closest comparable on the open
+market and it is asking 59% of the subject car's number.
+
 **A third pedal is worth roughly $1,200.** The
 [4-speed automatic](https://carsandbids.com/auctions/KP841BVK/2002-mazda-mx-5-miata-special-edition)
 brought $8,600 at 99,900 miles this past February — the most recent result here
@@ -201,8 +226,10 @@ It came second on price and still lost to its own previous sale.
 Comps are completed Cars & Bids auctions, read off each listing page after
 close. Hammer price only — no buyer's fee, no transport, no post-sale
 negotiation on the unsold car. Sample size is five, spanning May 2024 to
-February 2026; treat it as a sketch of the market, not an appraisal. No comp
-here matches the subject car's mileage, which is the single biggest limitation
-of this packet. Data lives in
+February 2026; treat it as a sketch of the market, not an appraisal. Retail
+figures are live asking prices read off cars.com and Facebook Marketplace, not
+transactions. No *completed sale* here matches the subject car's mileage, which
+is the single biggest limitation of this packet — the closest car on the
+odometer is a listing nobody has bought yet. Data lives in
 [`_data/miata_market.yml`](https://github.com/lcerezo/lcerezo.github.io/blob/master/_data/miata_market.yml)
 — adding a comp is one YAML entry.

@@ -68,6 +68,26 @@ retail:
       16-inch alloys, factory LSD. Five-speed, not a six. Flagged by cars.com as
       below its own market range.
 
+  - label: 2002 MX-5 Miata LS
+    url: https://www.facebook.com/marketplace/item/1753622865787116/
+    year: 2002
+    trim: LS
+    ask: 8900
+    mileage: 62000
+    transmission: 6MT
+    exterior: Blue
+    interior: Tan leather
+    seller: Private
+    source: Facebook Marketplace
+    location: Divide, CO
+    listed: 2026-08-25
+    notes: >-
+      Closest car on mileage anywhere in this packet — 3,000 under the subject
+      car, same six-speed — and asking inside the auction band rather than above
+      it. Second owner, clean title, garaged, tan leather and tan top.
+      Selling because the owner moved to 9,200 feet with no storage. No
+      Facebook equivalent of a cars.com market range, and no fees to add.
+
 comps:
   - id: KP841BVK
     url: https://carsandbids.com/auctions/KP841BVK/2002-mazda-mx-5-miata-special-edition
