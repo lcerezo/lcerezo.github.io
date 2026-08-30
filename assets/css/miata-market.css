@@ -185,6 +185,29 @@
   vertical-align: 0.1em;
 }
 
+/* ---- color column ----
+   Every car here wears an edition or package color, so name the color and tag
+   which edition it belongs to. The swatch marks the Blazing Yellow SE cars. */
+.mm-color { white-space: nowrap; }
+
+.mm-color .mm-tag {
+  display: block;
+  margin: 0.25em 0 0;
+  white-space: nowrap;
+}
+
+/* Swatch hex comes from the data file (`swatch:`). It is an approximation for
+   the table, not a factory paint match. */
+.mm-swatch {
+  display: inline-block;
+  width: 0.62em;
+  height: 0.62em;
+  margin-right: 0.4em;
+  border: 1px solid var(--mm-fg);
+  border-radius: 50%;
+  vertical-align: 0.02em;
+}
+
 .mm-price { font-weight: 700; }
 .mm-price--sold { color: var(--mm-fg); }
 .mm-price--nosale { color: var(--mm-muted); }

@@ -45,9 +45,12 @@ robots: noindex
 
 ## The two markets side by side
 
-All five auction comps are yellow. The two live retail cars are not — a
-Titanium Gray Shinsen and a blue LS — and they are here because they are what
-someone shopping for an NB2 right now can actually go and look at.
+Color is not incidental on these cars, so the table names it on every row.
+Blazing Yellow is the {{ s.year }} Special Edition's own color — all four SEs in
+the auction set wear it, and the one base car is a different yellow entirely.
+Titanium Gray is likewise the {{ r.year }} Shinsen's package color. The blue LS
+is the only car here in an ordinary color on an ordinary trim, which is exactly
+why it is a useful check on the other numbers.
 
 <div class="mm-table-wrap">
 <table class="mm-table">
@@ -58,14 +61,14 @@ someone shopping for an NB2 right now can actually go and look at.
     <tr>
       <td>No-reserve auction</td>
       <td>What buyers actually paid, five results</td>
-      <td>Yellow</td>
+      <td class="mm-color"><span class="mm-swatch" style="background:{{ s.swatch }}"></span>Blazing Yellow<span class="mm-tag">SE color</span></td>
       <td class="mm-num">${% include mm-thousands.html n=by_price.first.price %} – ${% include mm-thousands.html n=by_price.last.price %}</td>
     </tr>
     {%- if r.cars_range_low %}
     <tr>
       <td>cars.com market range</td>
       <td>Algorithmic retail band for the {{ r.year }} {{ r.trim }}</td>
-      <td>{{ r.exterior }}</td>
+      <td class="mm-color"><span class="mm-swatch" style="background:{{ r.swatch }}"></span>{{ r.exterior }}{% if r.color_note %}<span class="mm-tag">{{ r.color_note }}</span>{% endif %}</td>
       <td class="mm-num">${% include mm-thousands.html n=r.cars_range_low %} – ${% include mm-thousands.html n=r.cars_range_high %}</td>
     </tr>
     {%- endif %}
@@ -76,14 +79,14 @@ someone shopping for an NB2 right now can actually go and look at.
         {% include mm-thousands.html n=x.mileage %}-mile {{ x.trim }}, {{ x.transmission }}{% if x.all_in %}, all-in with fees{% endif %} ·
         <a href="{{ x.url }}" rel="noopener nofollow">{{ x.source }}</a>
       </td>
-      <td>{{ x.exterior }}</td>
+      <td class="mm-color"><span class="mm-swatch" style="background:{{ x.swatch }}"></span>{{ x.exterior }}{% if x.color_note %}<span class="mm-tag">{{ x.color_note }}</span>{% endif %}</td>
       <td class="mm-num">{% if x.all_in %}${% include mm-thousands.html n=x.all_in %}{% else %}${% include mm-thousands.html n=x.ask %}{% endif %}</td>
     </tr>
     {%- endfor %}
     <tr>
       <td>This car</td>
       <td>{% include mm-thousands.html n=s.mileage %} miles, {{ s.transmission }}, private</td>
-      <td>{{ s.exterior }}</td>
+      <td class="mm-color"><span class="mm-swatch" style="background:{{ s.swatch }}"></span>{{ s.exterior }}{% if s.color_note %}<span class="mm-tag">{{ s.color_note }}</span>{% endif %}</td>
       <td class="mm-num"><strong>${% include mm-thousands.html n=s.ask %}</strong></td>
     </tr>
   </tbody>
@@ -128,7 +131,7 @@ range and adds no fees, so its number is the seller's ask and nothing else.
       </td>
       <td class="mm-num">{% if c.mileage %}{% include mm-thousands.html n=c.mileage %}{% else %}—{% endif %}</td>
       <td>{{ c.transmission | default: "—" }}</td>
-      <td>{{ c.exterior | default: "—" }}</td>
+      <td class="mm-color">{% if c.swatch %}<span class="mm-swatch" style="background:{{ c.swatch }}"></span>{% endif %}{{ c.exterior | default: "—" }}</td>
       <td>{{ c.seller | default: "—" }}</td>
       <td class="mm-num">{{ c.bids | default: "—" }}</td>
       <td class="mm-num">
