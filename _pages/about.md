@@ -10,6 +10,8 @@ Professionally, I've worked in technology since 1998 across a range of industrie
 Today I'm at AWS helping organizations find operational efficiencies and build continuous resiliency in the cloud. This work ranges from architectural improvements such as resiliency & o11y, business and operational process improvements, cost optimization and more. 
 Until [then...](https://www.linkedin.com/in/luiscerezo/) or --> [resume]({% link _pages/resume.md %}).
 
+My playground lives at [antfarm.systems](https://antfarm.systems) — more on that site than *this* site.
+
 {% if site.data.canary %}
 <div style="background: rgba(200, 230, 201, 0.4); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.3); border-left: 5px solid #4caf50; border-radius: 12px; padding: 25px; margin: 30px 0; box-shadow: 0 8px 32px rgba(0,0,0,0.1);">
   <div style="display: flex; align-items: flex-start; gap: 25px;">
